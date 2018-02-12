@@ -1,12 +1,20 @@
 Repo to demonstrate issues with Forms ImageCell and a PCL project
 
-Using the latest Forms, and a PCL project... a XAML ImageCell with a  hardcoded source **may** timeout and return an error.
-
-
 ## Repo Folders:
 - NS - Net Standard Project
 - PCL - PCL Project
 - Shared - Share Project
+
+## Desc
+Using the latest Forms and a PCL project... a XAML ImageCell with a hardcoded source ```may``` timeout and return an error.
+
+```xml
+<ImageCell
+    ImageSource="https://www.xamstatic.com/dist/images/pages/platform/visual-studio-icon-uHIZMvQl.png"
+    Text="{Binding Name}"
+    Detail="{Binding Job}">
+</ImageCell>
+```
 
 ## Error:
 
