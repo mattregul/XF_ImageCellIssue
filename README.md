@@ -1,8 +1,21 @@
-# XF_ImageCellIssue
 Repo to demonstrate issues with Forms ImageCell and a PCL project
 
+Using the latest Forms, and a PCL project... a XAML ImageCell with a  hardcoded source may timeout and return an error
 
+
+## Repo Folders:
+- NS - Net Standard Project
+- PCL - PCL Project
+- Shared - Share Project
+
+## Error:
+
+#### Full Log: [output.txt](output.txt)
+
+#### Error Snippet:
 ```Image Loading: Error getting stream for https://www.xamstatic.com/dist/images/pages/platform/visual-studio-icon-uHIZMvQl.png: System.Threading.Tasks.TaskCanceledException: A task was canceled.```
+
+*...*
 
 ```[0:] ImageLoaderSourceHandler: Could not retrieve image or image data was invalid: Uri: https://www.xamstatic.com/dist/images/pages/platform/visual-studio-icon-uHIZMvQl.png```
 
