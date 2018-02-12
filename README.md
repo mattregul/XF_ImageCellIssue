@@ -1,4 +1,4 @@
-Repo to demonstrate issues with Forms ImageCell, a **PCL** project, and **Android**
+Repo to demonstrate issues with Forms **ImageCell**, a **PCL** project, and **Android**
 
 ## Repo Folders:
 - NS - Net Standard Project
