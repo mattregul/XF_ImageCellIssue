@@ -1,6 +1,6 @@
 Repo to demonstrate issues with Forms ImageCell and a PCL project
 
-Using the latest Forms, and a PCL project... a XAML ImageCell with a  hardcoded source may timeout and return an error
+Using the latest Forms, and a PCL project... a XAML ImageCell with a  hardcoded source **may** timeout and return an error.
 
 
 ## Repo Folders:
