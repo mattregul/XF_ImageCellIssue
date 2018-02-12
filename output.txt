@@ -1,0 +1,1037 @@
+Android application is debugging.
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.Droid.dll
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/FormsViewGroup.dll [External]
+02-12 15:43:53.757 I/art     ( 4064): Not late-enabling -Xcheck:jni (already on)
+02-12 15:43:53.757 W/art     ( 4064): Unexpected CPU variant for X86 using defaults: x86
+02-12 15:43:53.870 W/monodroid( 4064): Creating public update directory: `/data/user/0/com.xamarin.xamarinforms_listviewselection/files/.__override__`
+02-12 15:43:53.871 W/monodroid( 4064): Using override path: /data/user/0/com.xamarin.xamarinforms_listviewselection/files/.__override__
+02-12 15:43:53.872 W/monodroid( 4064): Using override path: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__
+02-12 15:43:53.873 W/monodroid( 4064): Trying to load sgen from: /data/user/0/com.xamarin.xamarinforms_listviewselection/files/.__override__/libmonosgen-2.0.so
+02-12 15:43:53.873 W/monodroid( 4064): Trying to load sgen from: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/libmonosgen-2.0.so
+02-12 15:43:53.874 W/monodroid( 4064): Trying to load sgen from: /storage/emulated/0/../legacy/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/libmonosgen-2.0.so
+02-12 15:43:53.874 W/monodroid( 4064): Trying to load sgen from: /data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libmonosgen-2.0.so
+02-12 15:43:53.875 W/monodroid( 4064): Trying to load sgen from: /data/user/0/com.xamarin.xamarinforms_listviewselection/files/.__override__/links/libmonosgen-2.0.so
+02-12 15:43:53.879 W/monodroid-debug( 4064): Trying to initialize the debugger with options: --debugger-agent=transport=dt_socket,loglevel=0,address=127.0.0.1:29226,server=y,embedding=1
+02-12 15:43:53.901 W/monodroid-debug( 4064): Accepted stdout connection: 34
+02-12 15:43:54.675 D/Mono    ( 4064): Image addref mscorlib[0xa3b1e460] -> mscorlib.dll[0xa3112f00]: 2
+02-12 15:43:54.675 D/Mono    ( 4064): Prepared to set up assembly 'mscorlib' (mscorlib.dll)
+02-12 15:43:54.676 D/Mono    ( 4064): AOT: image 'mscorlib.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-mscorlib.dll.so" not found
+02-12 15:43:54.676 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/mscorlib.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-mscorlib.dll.so" not found
+02-12 15:43:54.677 D/Mono    ( 4064): Config attempting to parse: 'mscorlib.dll.config'.
+02-12 15:43:54.677 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/mscorlib/mscorlib.config'.
+02-12 15:43:54.710 D/Mono    ( 4064): Assembly mscorlib[0xa3b1e460] added to domain RootDomain, ref_count=1
+02-12 15:43:54.799 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.Droid.dll'.
+02-12 15:43:54.801 D/Mono    ( 4064): Image addref XamarinForms_ListviewSelection.Droid[0xa3b1e4c0] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.Droid.dll[0xa3113900]: 2
+02-12 15:43:54.801 D/Mono    ( 4064): Prepared to set up assembly 'XamarinForms_ListviewSelection.Droid' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.Droid.dll)
+02-12 15:43:54.801 D/Mono    ( 4064): Assembly XamarinForms_ListviewSelection.Droid[0xa3b1e4c0] added to domain RootDomain, ref_count=1
+02-12 15:43:54.803 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.Droid.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-XamarinForms_ListviewSelection.Droid.dll.so" not found
+02-12 15:43:54.803 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/XamarinForms_ListviewSelection.Droid.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-XamarinForms_ListviewSelection.Droid.dll.so" not found
+02-12 15:43:54.803 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.Droid.dll'.
+02-12 15:43:54.803 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.Droid.dll.config'.
+02-12 15:43:54.803 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/XamarinForms_ListviewSelection.Droid/XamarinForms_ListviewSelection.Droid.config'.
+02-12 15:43:54.803 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/FormsViewGroup.dll'.
+02-12 15:43:54.804 D/Mono    ( 4064): Image addref FormsViewGroup[0xa3b1e520] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/FormsViewGroup.dll[0xa3113e00]: 2
+02-12 15:43:54.804 D/Mono    ( 4064): Prepared to set up assembly 'FormsViewGroup' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/FormsViewGroup.dll)
+02-12 15:43:54.804 D/Mono    ( 4064): Assembly FormsViewGroup[0xa3b1e520] added to domain RootDomain, ref_count=1
+02-12 15:43:54.804 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/FormsViewGroup.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-FormsViewGroup.dll.so" not found
+02-12 15:43:54.805 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/FormsViewGroup.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-FormsViewGroup.dll.so" not found
+02-12 15:43:54.805 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/FormsViewGroup.dll'.
+02-12 15:43:54.805 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/FormsViewGroup.dll.config'.
+02-12 15:43:54.805 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/FormsViewGroup/FormsViewGroup.config'.
+02-12 15:43:54.805 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Animated.Vector.Drawable.dll'.
+02-12 15:43:54.805 D/Mono    ( 4064): Image addref Xamarin.Android.Support.Animated.Vector.Drawable[0xa3b1e640] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Animated.Vector.Drawable.dll[0xa3115700]: 2
+02-12 15:43:54.806 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.Animated.Vector.Drawable' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Animated.Vector.Drawable.dll)
+02-12 15:43:54.806 D/Mono    ( 4064): Assembly Xamarin.Android.Support.Animated.Vector.Drawable[0xa3b1e640] added to domain RootDomain, ref_count=1
+02-12 15:43:54.806 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Animated.Vector.Drawable.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Animated.Vector.Drawable.dll.so" not found
+02-12 15:43:54.807 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.Animated.Vector.Drawable.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Animated.Vector.Drawable.dll.so" not found
+02-12 15:43:54.807 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Animated.Vector.Drawable.dll'.
+02-12 15:43:54.807 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Animated.Vector.Drawable.dll.config'.
+02-12 15:43:54.807 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.Animated.Vector.Drawable/Xamarin.Android.Support.Animated.Vector.Drawable.config'.
+02-12 15:43:54.807 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Annotations.dll'.
+02-12 15:43:54.807 D/Mono    ( 4064): Image addref Xamarin.Android.Support.Annotations[0xa3b1e820] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Annotations.dll[0xa3115c00]: 2
+02-12 15:43:54.807 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.Annotations' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Annotations.dll)
+02-12 15:43:54.807 D/Mono    ( 4064): Assembly Xamarin.Android.Support.Annotations[0xa3b1e820] added to domain RootDomain, ref_count=1
+02-12 15:43:54.808 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Annotations.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Annotations.dll.so" not found
+02-12 15:43:54.808 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.Annotations.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Annotations.dll.so" not found
+02-12 15:43:54.808 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Annotations.dll'.
+02-12 15:43:54.808 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Annotations.dll.config'.
+02-12 15:43:54.809 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.Annotations/Xamarin.Android.Support.Annotations.config'.
+02-12 15:43:54.809 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Compat.dll'.
+02-12 15:43:54.810 D/Mono    ( 4064): Image addref Xamarin.Android.Support.Compat[0xa3b1e880] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Compat.dll[0xa3116100]: 2
+02-12 15:43:54.810 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.Compat' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Compat.dll)
+02-12 15:43:54.810 D/Mono    ( 4064): Assembly Xamarin.Android.Support.Compat[0xa3b1e880] added to domain RootDomain, ref_count=1
+02-12 15:43:54.811 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Compat.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Compat.dll.so" not found
+02-12 15:43:54.811 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.Compat.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Compat.dll.so" not found
+02-12 15:43:54.811 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Compat.dll'.
+02-12 15:43:54.811 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Compat.dll.config'.
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Animated.Vector.Drawable.dll [External]02-12 15:43:54.811 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.Compat/Xamarin.Android.Support.Compat.config'.
+
+02-12 15:43:54.811 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.UI.dll'.
+02-12 15:43:54.812 D/Mono    ( 4064): Image addref Xamarin.Android.Support.Core.UI[0xa3b1e8e0] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.UI.dll[0xa3116600]: 2
+02-12 15:43:54.812 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.Core.UI' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.UI.dll)
+02-12 15:43:54.812 D/Mono    ( 4064): Assembly Xamarin.Android.Support.Core.UI[0xa3b1e8e0] added to domain RootDomain, ref_count=1
+02-12 15:43:54.813 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.UI.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Core.UI.dll.so" not found
+02-12 15:43:54.813 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.Core.UI.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Core.UI.dll.so" not found
+02-12 15:43:54.813 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.UI.dll'.
+02-12 15:43:54.813 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.UI.dll.config'.
+02-12 15:43:54.813 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.Core.UI/Xamarin.Android.Support.Core.UI.config'.
+02-12 15:43:54.813 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.Utils.dll'.Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Annotations.dll [External]
+
+02-12 15:43:54.814 D/Mono    ( 4064): Image addref Xamarin.Android.Support.Core.Utils[0xa3b1e940] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.Utils.dll[0xa3116b00]: 2
+02-12 15:43:54.814 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.Core.Utils' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.Utils.dll)
+02-12 15:43:54.814 D/Mono    ( 4064): Assembly Xamarin.Android.Support.Core.Utils[0xa3b1e940] added to domain RootDomain, ref_count=1
+02-12 15:43:54.814 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.Utils.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Core.Utils.dll.so" not found
+02-12 15:43:54.815 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.Core.Utils.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Core.Utils.dll.so" not found
+02-12 15:43:54.815 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.Utils.dll'.
+02-12 15:43:54.815 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.Utils.dll.config'.
+02-12 15:43:54.815 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.Core.Utils/Xamarin.Android.Support.Core.Utils.config'.
+02-12 15:43:54.815 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Design.dll'.
+02-12 15:43:54.816 D/Mono    ( 4064): Image addref Xamarin.Android.Support.Design[0xa3b1e9a0] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Design.dll[0xa3b6b000]: 2
+02-12 15:43:54.816 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.Design' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Design.dll)
+02-12 15:43:54.816 D/Mono    ( 4064): Assembly Xamarin.Android.Support.Design[0xa3b1e9a0] added to domain RootDomain, ref_count=1
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Compat.dll [External]02-12 15:43:54.817 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Design.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Design.dll.so" not found
+
+02-12 15:43:54.817 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.Design.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Design.dll.so" not found
+02-12 15:43:54.817 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Design.dll'.
+02-12 15:43:54.817 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Design.dll.config'.
+02-12 15:43:54.817 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.Design/Xamarin.Android.Support.Design.config'.
+02-12 15:43:54.817 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Fragment.dll'.
+02-12 15:43:54.818 D/Mono    ( 4064): Image addref Xamarin.Android.Support.Fragment[0xa3b1ea00] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Fragment.dll[0xa3b6b500]: 2
+02-12 15:43:54.818 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.Fragment' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Fragment.dll)
+02-12 15:43:54.818 D/Mono    ( 4064): Assembly Xamarin.Android.Support.Fragment[0xa3b1ea00] added to domain RootDomain, ref_count=1
+02-12 15:43:54.818 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Fragment.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Fragment.dll.so" not foundLoaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.UI.dll [External]
+
+02-12 15:43:54.819 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.Fragment.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Fragment.dll.so" not found
+02-12 15:43:54.819 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Fragment.dll'.
+02-12 15:43:54.819 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Fragment.dll.config'.
+02-12 15:43:54.819 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.Fragment/Xamarin.Android.Support.Fragment.config'.
+02-12 15:43:54.819 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Media.Compat.dll'.
+02-12 15:43:54.820 D/Mono    ( 4064): Image addref Xamarin.Android.Support.Media.Compat[0xa3b1ea60] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Media.Compat.dll[0xa3b6ba00]: 2
+02-12 15:43:54.820 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.Media.Compat' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Media.Compat.dll)
+02-12 15:43:54.820 D/Mono    ( 4064): Assembly Xamarin.Android.Support.Media.Compat[0xa3b1ea60] added to domain RootDomain, ref_count=1
+02-12 15:43:54.821 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Media.Compat.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Media.Compat.dll.so" not found
+02-12 15:43:54.821 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.Media.Compat.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Media.Compat.dll.so" not found
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Core.Utils.dll [External]02-12 15:43:54.821 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Media.Compat.dll'.
+
+02-12 15:43:54.821 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Media.Compat.dll.config'.
+02-12 15:43:54.821 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.Media.Compat/Xamarin.Android.Support.Media.Compat.config'.
+02-12 15:43:54.821 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Transition.dll'.
+02-12 15:43:54.822 D/Mono    ( 4064): Image addref Xamarin.Android.Support.Transition[0xa3b1eac0] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Transition.dll[0xa3b6bf00]: 2
+02-12 15:43:54.822 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.Transition' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Transition.dll)
+02-12 15:43:54.822 D/Mono    ( 4064): Assembly Xamarin.Android.Support.Transition[0xa3b1eac0] added to domain RootDomain, ref_count=1
+02-12 15:43:54.822 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Transition.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Transition.dll.so" not found
+02-12 15:43:54.823 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.Transition.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Transition.dll.so" not found
+02-12 15:43:54.823 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Transition.dll'.
+02-12 15:43:54.823 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Transition.dll.config'.
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Design.dll [External]02-12 15:43:54.823 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.Transition/Xamarin.Android.Support.Transition.config'.
+
+02-12 15:43:54.823 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v4.dll'.
+02-12 15:43:54.823 D/Mono    ( 4064): Image addref Xamarin.Android.Support.v4[0xa3b1eb20] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v4.dll[0xa3b6c400]: 2
+02-12 15:43:54.823 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.v4' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v4.dll)
+02-12 15:43:54.823 D/Mono    ( 4064): Assembly Xamarin.Android.Support.v4[0xa3b1eb20] added to domain RootDomain, ref_count=1
+02-12 15:43:54.824 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v4.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v4.dll.so" not found
+02-12 15:43:54.824 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.v4.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v4.dll.so" not found
+02-12 15:43:54.825 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v4.dll'.
+02-12 15:43:54.825 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v4.dll.config'.
+02-12 15:43:54.825 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.v4/Xamarin.Android.Support.v4.config'.
+02-12 15:43:54.825 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll'.
+02-12 15:43:54.826 D/Mono    ( 4064): Image addref Xamarin.Android.Support.v7.AppCompat[0xa3b1eb80] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll[0xa3b6c900]: 2Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Fragment.dll [External]
+
+02-12 15:43:54.826 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.v7.AppCompat' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll)
+02-12 15:43:54.826 D/Mono    ( 4064): Assembly Xamarin.Android.Support.v7.AppCompat[0xa3b1eb80] added to domain RootDomain, ref_count=1
+02-12 15:43:54.826 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v7.AppCompat.dll.so" not found
+02-12 15:43:54.827 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.v7.AppCompat.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v7.AppCompat.dll.so" not found
+02-12 15:43:54.827 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll'.
+02-12 15:43:54.827 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll.config'.
+02-12 15:43:54.827 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.v7.AppCompat/Xamarin.Android.Support.v7.AppCompat.config'.
+02-12 15:43:54.827 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.CardView.dll'.
+02-12 15:43:54.828 D/Mono    ( 4064): Image addref Xamarin.Android.Support.v7.CardView[0xa3b1ebe0] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.CardView.dll[0xa3b6ce00]: 2
+02-12 15:43:54.828 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.v7.CardView' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.CardView.dll)
+02-12 15:43:54.828 D/Mono    ( 4064): Assembly Xamarin.Android.Support.v7.CardView[0xa3b1ebe0] added to domain RootDomain, ref_count=1
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Media.Compat.dll [External]02-12 15:43:54.828 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.CardView.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v7.CardView.dll.so" not found
+
+02-12 15:43:54.829 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.v7.CardView.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v7.CardView.dll.so" not foundLoaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Transition.dll [External]
+
+02-12 15:43:54.829 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.CardView.dll'.
+02-12 15:43:54.829 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.CardView.dll.config'.
+02-12 15:43:54.829 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.v7.CardView/Xamarin.Android.Support.v7.CardView.config'.
+02-12 15:43:54.829 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll'.
+02-12 15:43:54.830 D/Mono    ( 4064): Image addref Xamarin.Android.Support.v7.MediaRouter[0xa3b1ec40] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll[0xa3b6d300]: 2
+02-12 15:43:54.830 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.v7.MediaRouter' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll)
+02-12 15:43:54.830 D/Mono    ( 4064): Assembly Xamarin.Android.Support.v7.MediaRouter[0xa3b1ec40] added to domain RootDomain, ref_count=1
+02-12 15:43:54.830 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v7.MediaRouter.dll.so" not found
+02-12 15:43:54.831 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.v7.MediaRouter.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v7.MediaRouter.dll.so" not found
+02-12 15:43:54.831 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll'.
+02-12 15:43:54.831 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll.config'.Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v4.dll [External]
+
+02-12 15:43:54.831 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.v7.MediaRouter/Xamarin.Android.Support.v7.MediaRouter.config'.
+02-12 15:43:54.831 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.Palette.dll'.
+02-12 15:43:54.832 D/Mono    ( 4064): Image addref Xamarin.Android.Support.v7.Palette[0xa3b1eca0] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.Palette.dll[0xa3b6d800]: 2
+02-12 15:43:54.832 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.v7.Palette' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.Palette.dll)
+02-12 15:43:54.832 D/Mono    ( 4064): Assembly Xamarin.Android.Support.v7.Palette[0xa3b1eca0] added to domain RootDomain, ref_count=1
+02-12 15:43:54.832 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.Palette.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v7.Palette.dll.so" not found
+02-12 15:43:54.832 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.v7.Palette.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v7.Palette.dll.so" not found
+02-12 15:43:54.833 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.Palette.dll'.
+02-12 15:43:54.833 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.Palette.dll.config'.
+02-12 15:43:54.833 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.v7.Palette/Xamarin.Android.Support.v7.Palette.config'.
+02-12 15:43:54.833 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.RecyclerView.dll'.
+02-12 15:43:54.834 D/Mono    ( 4064): Image addref Xamarin.Android.Support.v7.RecyclerView[0xa3b1ed00] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.RecyclerView.dll[0xa3b6dd00]: 2
+02-12 15:43:54.834 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.v7.RecyclerView' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.RecyclerView.dll)
+02-12 15:43:54.834 D/Mono    ( 4064): Assembly Xamarin.Android.Support.v7.RecyclerView[0xa3b1ed00] added to domain RootDomain, ref_count=1
+02-12 15:43:54.835 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.RecyclerView.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v7.RecyclerView.dll.so" not found
+02-12 15:43:54.835 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.v7.RecyclerView.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.v7.RecyclerView.dll.so" not foundLoaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll [External]
+
+02-12 15:43:54.835 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.RecyclerView.dll'.
+02-12 15:43:54.836 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.RecyclerView.dll.config'.
+02-12 15:43:54.836 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.v7.RecyclerView/Xamarin.Android.Support.v7.RecyclerView.config'.
+02-12 15:43:54.836 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Vector.Drawable.dll'.
+02-12 15:43:54.836 D/Mono    ( 4064): Image addref Xamarin.Android.Support.Vector.Drawable[0xa3b1ed60] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Vector.Drawable.dll[0xa3b6e200]: 2
+02-12 15:43:54.836 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Android.Support.Vector.Drawable' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Vector.Drawable.dll)
+02-12 15:43:54.837 D/Mono    ( 4064): Assembly Xamarin.Android.Support.Vector.Drawable[0xa3b1ed60] added to domain RootDomain, ref_count=1
+02-12 15:43:54.837 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Vector.Drawable.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Vector.Drawable.dll.so" not found
+02-12 15:43:54.837 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Android.Support.Vector.Drawable.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Android.Support.Vector.Drawable.dll.so" not found
+02-12 15:43:54.838 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Vector.Drawable.dll'.
+02-12 15:43:54.838 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Vector.Drawable.dll.config'.
+02-12 15:43:54.838 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Android.Support.Vector.Drawable/Xamarin.Android.Support.Vector.Drawable.config'.
+02-12 15:43:54.838 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Core.dll'.
+02-12 15:43:54.838 D/Mono    ( 4064): Image addref Xamarin.Forms.Core[0xa3b1edc0] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Core.dll[0xa3b6e700]: 2
+02-12 15:43:54.839 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Forms.Core' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Core.dll)
+02-12 15:43:54.839 D/Mono    ( 4064): Assembly Xamarin.Forms.Core[0xa3b1edc0] added to domain RootDomain, ref_count=1
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.CardView.dll [External]02-12 15:43:54.839 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Core.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Forms.Core.dll.so" not found
+
+02-12 15:43:54.839 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Forms.Core.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Forms.Core.dll.so" not found
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll [External]02-12 15:43:54.840 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Core.dll'.
+
+02-12 15:43:54.840 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Core.dll.config'.
+02-12 15:43:54.840 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Forms.Core/Xamarin.Forms.Core.config'.
+02-12 15:43:54.840 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.Android.dll'.
+02-12 15:43:54.840 D/Mono    ( 4064): Image addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.Android.dll[0xa3b6ec00]: 2
+02-12 15:43:54.841 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Forms.Platform.Android' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.Android.dll)
+02-12 15:43:54.841 D/Mono    ( 4064): Assembly Xamarin.Forms.Platform.Android[0xa3b1ee20] added to domain RootDomain, ref_count=1
+02-12 15:43:54.841 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.Android.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Forms.Platform.Android.dll.so" not found
+02-12 15:43:54.841 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Forms.Platform.Android.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Forms.Platform.Android.dll.so" not found
+02-12 15:43:54.842 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.Android.dll'.
+02-12 15:43:54.842 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.Android.dll.config'.
+02-12 15:43:54.842 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Forms.Platform.Android/Xamarin.Forms.Platform.Android.config'.
+02-12 15:43:54.842 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.dll'.
+02-12 15:43:54.842 D/Mono    ( 4064): Image addref Xamarin.Forms.Platform[0xa3b1ee80] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.dll[0xa3b6f100]: 2
+02-12 15:43:54.842 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Forms.Platform' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.dll)
+02-12 15:43:54.842 D/Mono    ( 4064): Assembly Xamarin.Forms.Platform[0xa3b1ee80] added to domain RootDomain, ref_count=1Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.Palette.dll [External]
+
+02-12 15:43:54.843 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Forms.Platform.dll.so" not found
+02-12 15:43:54.843 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Forms.Platform.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Forms.Platform.dll.so" not found
+02-12 15:43:54.843 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.dll'.
+02-12 15:43:54.843 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.dll.config'.
+02-12 15:43:54.843 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Forms.Platform/Xamarin.Forms.Platform.config'.
+02-12 15:43:54.844 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Xaml.dll'.
+02-12 15:43:54.844 D/Mono    ( 4064): Image addref Xamarin.Forms.Xaml[0xa3b1eee0] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Xaml.dll[0xa3b6f600]: 2
+02-12 15:43:54.844 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Forms.Xaml' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Xaml.dll)
+02-12 15:43:54.844 D/Mono    ( 4064): Assembly Xamarin.Forms.Xaml[0xa3b1eee0] added to domain RootDomain, ref_count=1
+02-12 15:43:54.845 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Xaml.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Forms.Xaml.dll.so" not found
+02-12 15:43:54.845 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Forms.Xaml.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Forms.Xaml.dll.so" not found
+02-12 15:43:54.845 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Xaml.dll'.
+02-12 15:43:54.845 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Xaml.dll.config'.
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.v7.RecyclerView.dll [External]02-12 15:43:54.846 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Forms.Xaml/Xamarin.Forms.Xaml.config'.
+
+02-12 15:43:54.846 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.dll'.
+02-12 15:43:54.846 D/Mono    ( 4064): Image addref XamarinForms_ListviewSelection[0xa3b1ef40] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.dll[0xa3b6fb00]: 2
+02-12 15:43:54.846 D/Mono    ( 4064): Prepared to set up assembly 'XamarinForms_ListviewSelection' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.dll)
+02-12 15:43:54.846 D/Mono    ( 4064): Assembly XamarinForms_ListviewSelection[0xa3b1ef40] added to domain RootDomain, ref_count=1
+02-12 15:43:54.847 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-XamarinForms_ListviewSelection.dll.so" not found
+02-12 15:43:54.847 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/XamarinForms_ListviewSelection.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-XamarinForms_ListviewSelection.dll.so" not found
+02-12 15:43:54.847 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.dll'.
+02-12 15:43:54.847 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.dll.config'.
+02-12 15:43:54.847 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/XamarinForms_ListviewSelection/XamarinForms_ListviewSelection.config'.
+02-12 15:43:54.847 W/monodroid-gc( 4064): GREF GC Threshold: 46080
+02-12 15:43:54.848 D/Mono    ( 4064): Image addref Mono.Android[0xa3b1e5e0] -> Mono.Android.dll[0xa3170000]: 2
+02-12 15:43:54.848 D/Mono    ( 4064): Prepared to set up assembly 'Mono.Android' (Mono.Android.dll)
+02-12 15:43:54.848 D/Mono    ( 4064): Assembly Mono.Android[0xa3b1e5e0] added to domain RootDomain, ref_count=1
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Android.Support.Vector.Drawable.dll [External]02-12 15:43:54.849 D/Mono    ( 4064): AOT: image 'Mono.Android.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Mono.Android.dll.so" not found
+
+02-12 15:43:54.850 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Mono.Android.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Mono.Android.dll.so" not found
+02-12 15:43:54.850 D/Mono    ( 4064): Config attempting to parse: 'Mono.Android.dll.config'.Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Core.dll [External]
+
+02-12 15:43:54.850 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Mono.Android/Mono.Android.config'.
+02-12 15:43:54.854 D/Mono    ( 4064): Assembly Ref addref Mono.Android[0xa3b1e5e0] -> mscorlib[0xa3b1e460]: 2
+02-12 15:43:54.854 D/Mono    ( 4064): Image addref Java.Interop[0xa3175000] -> Java.Interop.dll[0xa3170500]: 2
+02-12 15:43:54.854 D/Mono    ( 4064): Prepared to set up assembly 'Java.Interop' (Java.Interop.dll)
+02-12 15:43:54.854 D/Mono    ( 4064): Assembly Java.Interop[0xa3175000] added to domain RootDomain, ref_count=1
+02-12 15:43:54.856 D/Mono    ( 4064): AOT: image 'Java.Interop.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Java.Interop.dll.so" not found
+02-12 15:43:54.856 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Java.Interop.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Java.Interop.dll.so" not found
+02-12 15:43:54.856 D/Mono    ( 4064): Config attempting to parse: 'Java.Interop.dll.config'.
+02-12 15:43:54.856 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Java.Interop/Java.Interop.config'.
+02-12 15:43:54.856 D/Mono    ( 4064): Assembly Ref addref Mono.Android[0xa3b1e5e0] -> Java.Interop[0xa3175000]: 2
+02-12 15:43:54.857 D/Mono    ( 4064): Image addref System.Runtime[0xa3b1e580] -> System.Runtime.dll[0xa3170a00]: 2
+02-12 15:43:54.857 D/Mono    ( 4064): Prepared to set up assembly 'System.Runtime' (System.Runtime.dll)
+02-12 15:43:54.857 D/Mono    ( 4064): Assembly System.Runtime[0xa3b1e580] added to domain RootDomain, ref_count=1
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.Android.dll [External]02-12 15:43:54.858 D/Mono    ( 4064): AOT: image 'System.Runtime.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Runtime.dll.so" not found
+
+02-12 15:43:54.858 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Runtime.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Runtime.dll.so" not found
+02-12 15:43:54.858 D/Mono    ( 4064): Config attempting to parse: 'System.Runtime.dll.config'.
+02-12 15:43:54.858 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime/System.Runtime.config'.
+02-12 15:43:54.858 D/Mono    ( 4064): Assembly Ref addref Java.Interop[0xa3175000] -> System.Runtime[0xa3b1e580]: 2
+02-12 15:43:54.859 D/Mono    ( 4064): Assembly Ref addref System.Runtime[0xa3b1e580] -> mscorlib[0xa3b1e460]: 3
+02-12 15:43:54.859 W/monodroid( 4064): Calling into managed runtime init
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Platform.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Forms.Xaml.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/XamarinForms_ListviewSelection.dll
+Loaded assembly: Mono.Android.dll [External]
+Loaded assembly: Java.Interop.dll [External]
+Loaded assembly: System.Runtime.dll [External]
+Resolved pending breakpoint for 'Android.Runtime.JNIEnv.RegisterJniNatives(System.IntPtr, int, System.IntPtr, System.IntPtr, int)' to [0x0](no debug symbols).
+02-12 15:43:55.075 D/Mono    ( 4064): Image addref System.Collections.Concurrent[0xa3175060] -> System.Collections.Concurrent.dll[0xa3171900]: 2
+02-12 15:43:55.075 D/Mono    ( 4064): Prepared to set up assembly 'System.Collections.Concurrent' (System.Collections.Concurrent.dll)
+02-12 15:43:55.075 D/Mono    ( 4064): Assembly System.Collections.Concurrent[0xa3175060] added to domain RootDomain, ref_count=1
+02-12 15:43:55.077 D/Mono    ( 4064): AOT: image 'System.Collections.Concurrent.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Collections.Concurrent.dll.so" not found
+02-12 15:43:55.077 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Collections.Concurrent.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Collections.Concurrent.dll.so" not found
+02-12 15:43:55.077 D/Mono    ( 4064): Config attempting to parse: 'System.Collections.Concurrent.dll.config'.
+02-12 15:43:55.077 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Collections.Concurrent/System.Collections.Concurrent.config'.
+02-12 15:43:55.077 D/Mono    ( 4064): Assembly Ref addref Java.Interop[0xa3175000] -> System.Collections.Concurrent[0xa3175060]: 2
+02-12 15:43:55.077 D/Mono    ( 4064): Assembly Ref addref System.Collections.Concurrent[0xa3175060] -> mscorlib[0xa3b1e460]: 4
+Loaded assembly: System.Collections.Concurrent.dll [External]
+02-12 15:43:55.153 D/Mono    ( 4064): Image addref System.Threading[0xa3175120] -> System.Threading.dll[0xa3171e00]: 2
+02-12 15:43:55.153 D/Mono    ( 4064): Prepared to set up assembly 'System.Threading' (System.Threading.dll)
+02-12 15:43:55.153 D/Mono    ( 4064): Assembly System.Threading[0xa3175120] added to domain RootDomain, ref_count=1
+02-12 15:43:55.154 D/Mono    ( 4064): AOT: image 'System.Threading.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Threading.dll.so" not found
+02-12 15:43:55.154 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Threading.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Threading.dll.so" not found
+02-12 15:43:55.154 D/Mono    ( 4064): Config attempting to parse: 'System.Threading.dll.config'.
+02-12 15:43:55.154 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Threading/System.Threading.config'.
+02-12 15:43:55.154 D/Mono    ( 4064): Assembly Ref addref Java.Interop[0xa3175000] -> System.Threading[0xa3175120]: 2
+02-12 15:43:55.154 D/Mono    ( 4064): Assembly Ref addref System.Threading[0xa3175120] -> mscorlib[0xa3b1e460]: 5Loaded assembly: System.Threading.dll [External]
+
+02-12 15:43:55.175 D/Mono    ( 4064): Image addref System.Runtime.InteropServices[0xa31752a0] -> System.Runtime.InteropServices.dll[0xa3172300]: 2
+02-12 15:43:55.175 D/Mono    ( 4064): Prepared to set up assembly 'System.Runtime.InteropServices' (System.Runtime.InteropServices.dll)
+02-12 15:43:55.175 D/Mono    ( 4064): Assembly System.Runtime.InteropServices[0xa31752a0] added to domain RootDomain, ref_count=1
+02-12 15:43:55.177 D/Mono    ( 4064): AOT: image 'System.Runtime.InteropServices.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Runtime.InteropServices.dll.so" not found
+02-12 15:43:55.177 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Runtime.InteropServices.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Runtime.InteropServices.dll.so" not found
+02-12 15:43:55.177 D/Mono    ( 4064): Config attempting to parse: 'System.Runtime.InteropServices.dll.config'.
+02-12 15:43:55.177 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime.InteropServices/System.Runtime.InteropServices.config'.
+02-12 15:43:55.177 D/Mono    ( 4064): Assembly Ref addref Java.Interop[0xa3175000] -> System.Runtime.InteropServices[0xa31752a0]: 2
+02-12 15:43:55.177 D/Mono    ( 4064): Assembly Ref addref System.Runtime.InteropServices[0xa31752a0] -> mscorlib[0xa3b1e460]: 6
+Loaded assembly: System.Runtime.InteropServices.dll [External]
+02-12 15:43:55.216 D/Mono    ( 4064): DllImport attempting to load: '__Internal'.
+02-12 15:43:55.217 D/Mono    ( 4064): DllImport loaded library '(null)'.
+02-12 15:43:55.217 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.217 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_java_vm'.
+02-12 15:43:55.217 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_java_vm'.
+02-12 15:43:55.217 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_java_vm'.
+02-12 15:43:55.260 D/Mono    ( 4064): DllImport attempting to load: '__Internal'.
+02-12 15:43:55.260 D/Mono    ( 4064): DllImport loaded library '(null)'.
+02-12 15:43:55.260 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.260 D/Mono    ( 4064): Searching for '_monodroid_gref_log_new'.
+02-12 15:43:55.260 D/Mono    ( 4064): Probing '_monodroid_gref_log_new'.
+02-12 15:43:55.260 D/Mono    ( 4064): Found as '_monodroid_gref_log_new'.
+02-12 15:43:55.262 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.262 D/Mono    ( 4064): Searching for 'java_interop_jnienv_new_global_ref'.
+02-12 15:43:55.262 D/Mono    ( 4064): Probing 'java_interop_jnienv_new_global_ref'.
+02-12 15:43:55.262 D/Mono    ( 4064): Found as 'java_interop_jnienv_new_global_ref'.
+02-12 15:43:55.265 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.265 D/Mono    ( 4064): Searching for '_monodroid_gref_get'.
+02-12 15:43:55.265 D/Mono    ( 4064): Probing '_monodroid_gref_get'.
+02-12 15:43:55.265 D/Mono    ( 4064): Found as '_monodroid_gref_get'.
+02-12 15:43:55.301 D/Mono    ( 4064): Image addref System.Reflection[0xa3175240] -> System.Reflection.dll[0xa3173700]: 2
+02-12 15:43:55.301 D/Mono    ( 4064): Prepared to set up assembly 'System.Reflection' (System.Reflection.dll)
+02-12 15:43:55.301 D/Mono    ( 4064): Assembly System.Reflection[0xa3175240] added to domain RootDomain, ref_count=1
+02-12 15:43:55.303 D/Mono    ( 4064): AOT: image 'System.Reflection.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Reflection.dll.so" not found
+02-12 15:43:55.303 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Reflection.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Reflection.dll.so" not found
+02-12 15:43:55.303 D/Mono    ( 4064): Config attempting to parse: 'System.Reflection.dll.config'.
+02-12 15:43:55.303 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Reflection/System.Reflection.config'.
+02-12 15:43:55.303 D/Mono    ( 4064): Assembly Ref addref Java.Interop[0xa3175000] -> System.Reflection[0xa3175240]: 2
+02-12 15:43:55.303 D/Mono    ( 4064): Assembly Ref addref System.Reflection[0xa3175240] -> mscorlib[0xa3b1e460]: 7
+Loaded assembly: System.Reflection.dll [External]
+02-12 15:43:55.311 D/Mono    ( 4064): Image addref System.Collections[0xa31750c0] -> System.Collections.dll[0xa3173200]: 2
+02-12 15:43:55.311 D/Mono    ( 4064): Prepared to set up assembly 'System.Collections' (System.Collections.dll)
+02-12 15:43:55.311 D/Mono    ( 4064): Assembly System.Collections[0xa31750c0] added to domain RootDomain, ref_count=1
+02-12 15:43:55.312 D/Mono    ( 4064): AOT: image 'System.Collections.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Collections.dll.so" not found
+02-12 15:43:55.312 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Collections.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Collections.dll.so" not found
+02-12 15:43:55.312 D/Mono    ( 4064): Config attempting to parse: 'System.Collections.dll.config'.
+02-12 15:43:55.312 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Collections/System.Collections.config'.
+02-12 15:43:55.312 D/Mono    ( 4064): Assembly Ref addref Java.Interop[0xa3175000] -> System.Collections[0xa31750c0]: 2
+Loaded assembly: System.Collections.dll [External]02-12 15:43:55.313 D/Mono    ( 4064): Assembly Ref addref System.Collections[0xa31750c0] -> mscorlib[0xa3b1e460]: 8
+
+02-12 15:43:55.351 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.351 D/Mono    ( 4064): Searching for 'java_interop_jnienv_find_class'.
+02-12 15:43:55.351 D/Mono    ( 4064): Probing 'java_interop_jnienv_find_class'.
+02-12 15:43:55.351 D/Mono    ( 4064): Found as 'java_interop_jnienv_find_class'.
+02-12 15:43:55.351 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.351 D/Mono    ( 4064): Searching for 'java_interop_jnienv_exception_clear'.
+02-12 15:43:55.351 D/Mono    ( 4064): Probing 'java_interop_jnienv_exception_clear'.
+02-12 15:43:55.351 D/Mono    ( 4064): Found as 'java_interop_jnienv_exception_clear'.
+02-12 15:43:55.352 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.352 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_object_method_a'.
+02-12 15:43:55.352 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_object_method_a'.
+02-12 15:43:55.352 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_object_method_a'.
+02-12 15:43:55.352 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.352 D/Mono    ( 4064): Searching for 'java_interop_jnienv_delete_local_ref'.
+02-12 15:43:55.352 D/Mono    ( 4064): Probing 'java_interop_jnienv_delete_local_ref'.
+02-12 15:43:55.352 D/Mono    ( 4064): Found as 'java_interop_jnienv_delete_local_ref'.
+02-12 15:43:55.360 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.360 D/Mono    ( 4064): Searching for '_monodroid_lref_log_new'.
+02-12 15:43:55.360 D/Mono    ( 4064): Probing '_monodroid_lref_log_new'.
+02-12 15:43:55.360 D/Mono    ( 4064): Found as '_monodroid_lref_log_new'.
+02-12 15:43:55.368 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.368 D/Mono    ( 4064): Searching for '_monodroid_lref_log_delete'.
+02-12 15:43:55.368 D/Mono    ( 4064): Probing '_monodroid_lref_log_delete'.
+02-12 15:43:55.368 D/Mono    ( 4064): Found as '_monodroid_lref_log_delete'.
+02-12 15:43:55.375 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.375 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_method_id'.
+02-12 15:43:55.375 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_method_id'.
+02-12 15:43:55.375 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_method_id'.
+02-12 15:43:55.380 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.380 D/Mono    ( 4064): Searching for '_monodroid_gref_log_delete'.
+02-12 15:43:55.380 D/Mono    ( 4064): Probing '_monodroid_gref_log_delete'.
+02-12 15:43:55.380 D/Mono    ( 4064): Found as '_monodroid_gref_log_delete'.
+02-12 15:43:55.383 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.383 D/Mono    ( 4064): Searching for 'java_interop_jnienv_delete_global_ref'.
+02-12 15:43:55.383 D/Mono    ( 4064): Probing 'java_interop_jnienv_delete_global_ref'.
+02-12 15:43:55.383 D/Mono    ( 4064): Found as 'java_interop_jnienv_delete_global_ref'.
+02-12 15:43:55.392 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.392 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_static_method_id'.
+02-12 15:43:55.392 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_static_method_id'.
+02-12 15:43:55.392 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_static_method_id'.
+02-12 15:43:55.403 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.403 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_static_object_method_a'.
+02-12 15:43:55.403 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_static_object_method_a'.
+02-12 15:43:55.403 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_static_object_method_a'.
+02-12 15:43:55.415 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.415 D/Mono    ( 4064): Searching for '_monodroid_get_identity_hash_code'.
+02-12 15:43:55.415 D/Mono    ( 4064): Probing '_monodroid_get_identity_hash_code'.
+02-12 15:43:55.415 D/Mono    ( 4064): Found as '_monodroid_get_identity_hash_code'.
+02-12 15:43:55.447 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.447 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_object_class'.
+02-12 15:43:55.447 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_object_class'.
+02-12 15:43:55.447 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_object_class'.
+02-12 15:43:55.451 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.451 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_object_method'.
+02-12 15:43:55.451 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_object_method'.
+02-12 15:43:55.451 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_object_method'.
+02-12 15:43:55.456 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.456 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_string_length'.
+02-12 15:43:55.456 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_string_length'.
+02-12 15:43:55.456 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_string_length'.
+02-12 15:43:55.459 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.459 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_string_chars'.
+02-12 15:43:55.459 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_string_chars'.
+02-12 15:43:55.459 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_string_chars'.
+02-12 15:43:55.464 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.464 D/Mono    ( 4064): Searching for 'java_interop_jnienv_release_string_chars'.
+02-12 15:43:55.464 D/Mono    ( 4064): Probing 'java_interop_jnienv_release_string_chars'.
+02-12 15:43:55.464 D/Mono    ( 4064): Found as 'java_interop_jnienv_release_string_chars'.
+02-12 15:43:55.473 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.473 D/Mono    ( 4064): Searching for 'monodroid_typemap_java_to_managed'.
+02-12 15:43:55.473 D/Mono    ( 4064): Probing 'monodroid_typemap_java_to_managed'.
+02-12 15:43:55.473 D/Mono    ( 4064): Found as 'monodroid_typemap_java_to_managed'.
+02-12 15:43:55.538 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.538 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_superclass'.
+02-12 15:43:55.538 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_superclass'.
+02-12 15:43:55.538 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_superclass'.
+02-12 15:43:55.634 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.634 D/Mono    ( 4064): Searching for 'java_interop_jnienv_is_instance_of'.
+02-12 15:43:55.634 D/Mono    ( 4064): Probing 'java_interop_jnienv_is_instance_of'.
+02-12 15:43:55.634 D/Mono    ( 4064): Found as 'java_interop_jnienv_is_instance_of'.
+02-12 15:43:55.640 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.640 D/Mono    ( 4064): Searching for '_monodroid_gref_log'.
+02-12 15:43:55.640 D/Mono    ( 4064): Probing '_monodroid_gref_log'.
+02-12 15:43:55.640 D/Mono    ( 4064): Found as '_monodroid_gref_log'.
+02-12 15:43:55.709 D/Mono    ( 4064): Image addref System.Linq[0xa3175720] -> System.Linq.dll[0xa3173c00]: 2
+02-12 15:43:55.709 D/Mono    ( 4064): Prepared to set up assembly 'System.Linq' (System.Linq.dll)
+02-12 15:43:55.709 D/Mono    ( 4064): Assembly System.Linq[0xa3175720] added to domain RootDomain, ref_count=1
+02-12 15:43:55.710 D/Mono    ( 4064): AOT: image 'System.Linq.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Linq.dll.so" not found
+02-12 15:43:55.710 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Linq.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Linq.dll.so" not found
+02-12 15:43:55.710 D/Mono    ( 4064): Config attempting to parse: 'System.Linq.dll.config'.
+02-12 15:43:55.710 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Linq/System.Linq.config'.
+02-12 15:43:55.710 D/Mono    ( 4064): Assembly Ref addref Java.Interop[0xa3175000] -> System.Linq[0xa3175720]: 2
+02-12 15:43:55.713 D/Mono    ( 4064): Image addref System.Core[0xa3175840] -> System.Core.dll[0xa3172800]: 2
+02-12 15:43:55.713 D/Mono    ( 4064): Prepared to set up assembly 'System.Core' (System.Core.dll)
+02-12 15:43:55.713 D/Mono    ( 4064): Assembly System.Core[0xa3175840] added to domain RootDomain, ref_count=1
+02-12 15:43:55.714 D/Mono    ( 4064): AOT: image 'System.Core.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Core.dll.so" not found
+02-12 15:43:55.715 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Core.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Core.dll.so" not found
+02-12 15:43:55.715 D/Mono    ( 4064): Config attempting to parse: 'System.Core.dll.config'.
+02-12 15:43:55.715 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Core/System.Core.config'.
+02-12 15:43:55.715 D/Mono    ( 4064): Assembly Ref addref System.Linq[0xa3175720] -> System.Core[0xa3175840]: 2
+02-12 15:43:55.715 D/Mono    ( 4064): Assembly Ref addref System.Core[0xa3175840] -> mscorlib[0xa3b1e460]: 9
+Loaded assembly: System.Linq.dll [External]
+Loaded assembly: System.Core.dll [External]
+02-12 15:43:55.730 D/Mono    ( 4064): Image addref System.Runtime.Extensions[0xa31758a0] -> System.Runtime.Extensions.dll[0xa3172d00]: 2
+02-12 15:43:55.730 D/Mono    ( 4064): Prepared to set up assembly 'System.Runtime.Extensions' (System.Runtime.Extensions.dll)
+02-12 15:43:55.730 D/Mono    ( 4064): Assembly System.Runtime.Extensions[0xa31758a0] added to domain RootDomain, ref_count=1
+02-12 15:43:55.731 D/Mono    ( 4064): AOT: image 'System.Runtime.Extensions.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Runtime.Extensions.dll.so" not found
+02-12 15:43:55.732 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Runtime.Extensions.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Runtime.Extensions.dll.so" not found
+Loaded assembly: System.Runtime.Extensions.dll [External]02-12 15:43:55.732 D/Mono    ( 4064): Config attempting to parse: 'System.Runtime.Extensions.dll.config'.
+
+02-12 15:43:55.732 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime.Extensions/System.Runtime.Extensions.config'.
+02-12 15:43:55.732 D/Mono    ( 4064): Assembly Ref addref Java.Interop[0xa3175000] -> System.Runtime.Extensions[0xa31758a0]: 2
+02-12 15:43:55.732 D/Mono    ( 4064): Assembly Ref addref System.Runtime.Extensions[0xa31758a0] -> mscorlib[0xa3b1e460]: 10
+02-12 15:43:55.747 D/Mono    ( 4064): Image addref System.Reflection.Extensions[0xa3175a20] -> System.Reflection.Extensions.dll[0xa3174600]: 2
+02-12 15:43:55.747 D/Mono    ( 4064): Prepared to set up assembly 'System.Reflection.Extensions' (System.Reflection.Extensions.dll)
+02-12 15:43:55.747 D/Mono    ( 4064): Assembly System.Reflection.Extensions[0xa3175a20] added to domain RootDomain, ref_count=1
+02-12 15:43:55.748 D/Mono    ( 4064): AOT: image 'System.Reflection.Extensions.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Reflection.Extensions.dll.so" not found
+02-12 15:43:55.748 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Reflection.Extensions.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Reflection.Extensions.dll.so" not found
+02-12 15:43:55.748 D/Mono    ( 4064): Config attempting to parse: 'System.Reflection.Extensions.dll.config'.
+02-12 15:43:55.748 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Reflection.Extensions/System.Reflection.Extensions.config'.
+Loaded assembly: System.Reflection.Extensions.dll [External]02-12 15:43:55.749 D/Mono    ( 4064): Assembly Ref addref Java.Interop[0xa3175000] -> System.Reflection.Extensions[0xa3175a20]: 2
+
+02-12 15:43:55.749 D/Mono    ( 4064): Assembly Ref addref System.Reflection.Extensions[0xa3175a20] -> mscorlib[0xa3b1e460]: 11
+02-12 15:43:55.786 D/Mono    ( 4064): Assembly Ref addref Mono.Android[0xa3b1e5e0] -> System.Core[0xa3175840]: 3
+02-12 15:43:55.787 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.787 D/Mono    ( 4064): Searching for 'monodroid_typemap_managed_to_java'.
+02-12 15:43:55.787 D/Mono    ( 4064): Probing 'monodroid_typemap_managed_to_java'.
+02-12 15:43:55.787 D/Mono    ( 4064): Found as 'monodroid_typemap_managed_to_java'.
+02-12 15:43:55.836 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:55.836 D/Mono    ( 4064): Searching for 'java_interop_jnienv_alloc_object'.
+02-12 15:43:55.836 D/Mono    ( 4064): Probing 'java_interop_jnienv_alloc_object'.
+02-12 15:43:55.836 D/Mono    ( 4064): Found as 'java_interop_jnienv_alloc_object'.
+02-12 15:43:55.941 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.dll'.
+02-12 15:43:55.942 D/Mono    ( 4064): Image addref Xamarin.Interactive[0xa3175960] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.dll[0xa3174b00]: 2
+02-12 15:43:55.942 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Interactive' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.dll)
+02-12 15:43:55.942 D/Mono    ( 4064): Assembly Xamarin.Interactive[0xa3175960] added to domain RootDomain, ref_count=1
+02-12 15:43:55.962 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Interactive.dll.so" not found
+02-12 15:43:55.963 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Interactive.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Interactive.dll.so" not found
+02-12 15:43:55.963 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.dll'.
+02-12 15:43:55.963 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.dll.config'.
+02-12 15:43:55.963 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Interactive/Xamarin.Interactive.config'.
+02-12 15:43:55.971 D/Mono    ( 4064): Assembly Loader probing location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.Android.dll'.
+02-12 15:43:55.971 D/Mono    ( 4064): Image addref Xamarin.Interactive.Android[0xa3175600] -> /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.Android.dll[0x9190b000]: 2
+02-12 15:43:55.971 D/Mono    ( 4064): Prepared to set up assembly 'Xamarin.Interactive.Android' (/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.Android.dll)
+02-12 15:43:55.971 D/Mono    ( 4064): Assembly Xamarin.Interactive.Android[0xa3175600] added to domain RootDomain, ref_count=1
+02-12 15:43:55.972 D/Mono    ( 4064): AOT: image '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.Android.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Interactive.Android.dll.so" not found
+02-12 15:43:55.972 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Xamarin.Interactive.Android.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Xamarin.Interactive.Android.dll.so" not found
+02-12 15:43:55.972 D/Mono    ( 4064): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.Android.dll'.
+02-12 15:43:55.972 D/Mono    ( 4064): Config attempting to parse: '/storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.Android.dll.config'.
+02-12 15:43:55.972 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Interactive.Android/Xamarin.Interactive.Android.config'.
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/com.xamarin.xamarinforms_listviewselection/files/.__override__/Xamarin.Interactive.Android.dll [External]
+02-12 15:43:55.999 D/Mono    ( 4064): Assembly Ref addref Xamarin.Interactive.Android[0xa3175600] -> mscorlib[0xa3b1e460]: 12
+02-12 15:43:56.049 D/Mono    ( 4064): Assembly Ref addref Xamarin.Interactive.Android[0xa3175600] -> Xamarin.Interactive[0xa3175960]: 2
+02-12 15:43:56.058 D/Mono    ( 4064): Assembly Ref addref Xamarin.Interactive.Android[0xa3175600] -> Mono.Android[0xa3b1e5e0]: 2
+02-12 15:43:56.389 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:56.389 D/Mono    ( 4064): Searching for 'java_interop_jnienv_register_natives'.
+02-12 15:43:56.389 D/Mono    ( 4064): Probing 'java_interop_jnienv_register_natives'.
+02-12 15:43:56.389 D/Mono    ( 4064): Found as 'java_interop_jnienv_register_natives'.
+02-12 15:43:56.407 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:56.407 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_nonvirtual_void_method_a'.
+02-12 15:43:56.407 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_nonvirtual_void_method_a'.
+02-12 15:43:56.407 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_nonvirtual_void_method_a'.
+02-12 15:43:56.414 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:56.414 D/Mono    ( 4064): Searching for '_monodroid_gc_wait_for_bridge_processing'.
+02-12 15:43:56.414 D/Mono    ( 4064): Probing '_monodroid_gc_wait_for_bridge_processing'.
+02-12 15:43:56.414 D/Mono    ( 4064): Found as '_monodroid_gc_wait_for_bridge_processing'.
+02-12 15:43:56.425 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:56.425 D/Mono    ( 4064): Searching for 'java_interop_jnienv_is_same_object'.
+02-12 15:43:56.425 D/Mono    ( 4064): Probing 'java_interop_jnienv_is_same_object'.
+02-12 15:43:56.425 D/Mono    ( 4064): Found as 'java_interop_jnienv_is_same_object'.
+02-12 15:43:56.434 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:56.434 D/Mono    ( 4064): Searching for 'java_interop_jnienv_new_string'.
+02-12 15:43:56.434 D/Mono    ( 4064): Probing 'java_interop_jnienv_new_string'.
+02-12 15:43:56.434 D/Mono    ( 4064): Found as 'java_interop_jnienv_new_string'.
+02-12 15:43:56.440 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:56.440 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_static_field_id'.
+02-12 15:43:56.440 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_static_field_id'.
+02-12 15:43:56.440 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_static_field_id'.
+02-12 15:43:56.447 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:56.447 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_static_object_field'.
+02-12 15:43:56.447 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_static_object_field'.
+02-12 15:43:56.447 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_static_object_field'.
+Thread started:  #3
+02-12 15:43:56.569 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:56.569 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_static_void_method_a'.
+02-12 15:43:56.569 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_static_void_method_a'.
+02-12 15:43:56.569 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_static_void_method_a'.
+02-12 15:43:56.571 D/Mono    ( 4064): Assembly Ref addref FormsViewGroup[0xa3b1e520] -> mscorlib[0xa3b1e460]: 13
+02-12 15:43:56.571 D/Mono    ( 4064): Assembly Ref addref FormsViewGroup[0xa3b1e520] -> Mono.Android[0xa3b1e5e0]: 3
+02-12 15:43:56.573 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Animated.Vector.Drawable[0xa3b1e640] -> mscorlib[0xa3b1e460]: 14
+02-12 15:43:56.573 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Animated.Vector.Drawable[0xa3b1e640] -> Mono.Android[0xa3b1e5e0]: 4
+02-12 15:43:56.575 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Annotations[0xa3b1e820] -> mscorlib[0xa3b1e460]: 15
+02-12 15:43:56.575 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Annotations[0xa3b1e820] -> Mono.Android[0xa3b1e5e0]: 5
+02-12 15:43:56.577 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Compat[0xa3b1e880] -> mscorlib[0xa3b1e460]: 16
+02-12 15:43:56.578 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Compat[0xa3b1e880] -> Mono.Android[0xa3b1e5e0]: 6
+02-12 15:43:56.580 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Core.UI[0xa3b1e8e0] -> mscorlib[0xa3b1e460]: 17
+02-12 15:43:56.580 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Core.UI[0xa3b1e8e0] -> Mono.Android[0xa3b1e5e0]: 7
+02-12 15:43:56.582 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Core.Utils[0xa3b1e940] -> mscorlib[0xa3b1e460]: 18
+02-12 15:43:56.582 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Core.Utils[0xa3b1e940] -> Mono.Android[0xa3b1e5e0]: 8
+02-12 15:43:56.584 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Design[0xa3b1e9a0] -> mscorlib[0xa3b1e460]: 19
+02-12 15:43:56.584 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Design[0xa3b1e9a0] -> Mono.Android[0xa3b1e5e0]: 9
+02-12 15:43:56.586 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Fragment[0xa3b1ea00] -> mscorlib[0xa3b1e460]: 20
+02-12 15:43:56.586 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Fragment[0xa3b1ea00] -> Mono.Android[0xa3b1e5e0]: 10
+02-12 15:43:56.588 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Media.Compat[0xa3b1ea60] -> mscorlib[0xa3b1e460]: 21
+02-12 15:43:56.588 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Media.Compat[0xa3b1ea60] -> Mono.Android[0xa3b1e5e0]: 11
+02-12 15:43:56.590 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Transition[0xa3b1eac0] -> mscorlib[0xa3b1e460]: 22
+02-12 15:43:56.590 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Transition[0xa3b1eac0] -> Mono.Android[0xa3b1e5e0]: 12
+02-12 15:43:56.593 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v4[0xa3b1eb20] -> mscorlib[0xa3b1e460]: 23
+02-12 15:43:56.593 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v4[0xa3b1eb20] -> Mono.Android[0xa3b1e5e0]: 13
+02-12 15:43:56.595 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.AppCompat[0xa3b1eb80] -> mscorlib[0xa3b1e460]: 24
+02-12 15:43:56.595 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.AppCompat[0xa3b1eb80] -> Mono.Android[0xa3b1e5e0]: 14
+02-12 15:43:56.597 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.CardView[0xa3b1ebe0] -> mscorlib[0xa3b1e460]: 25
+02-12 15:43:56.597 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.CardView[0xa3b1ebe0] -> Mono.Android[0xa3b1e5e0]: 15
+02-12 15:43:56.599 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.MediaRouter[0xa3b1ec40] -> mscorlib[0xa3b1e460]: 26
+02-12 15:43:56.599 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.MediaRouter[0xa3b1ec40] -> Mono.Android[0xa3b1e5e0]: 16
+02-12 15:43:56.601 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.Palette[0xa3b1eca0] -> mscorlib[0xa3b1e460]: 27
+02-12 15:43:56.601 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.Palette[0xa3b1eca0] -> Mono.Android[0xa3b1e5e0]: 17
+02-12 15:43:56.603 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.RecyclerView[0xa3b1ed00] -> mscorlib[0xa3b1e460]: 28
+02-12 15:43:56.603 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.RecyclerView[0xa3b1ed00] -> Mono.Android[0xa3b1e5e0]: 18
+02-12 15:43:56.605 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Vector.Drawable[0xa3b1ed60] -> mscorlib[0xa3b1e460]: 29
+02-12 15:43:56.605 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Vector.Drawable[0xa3b1ed60] -> Mono.Android[0xa3b1e5e0]: 19
+02-12 15:43:56.610 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> Xamarin.Android.Support.v7.AppCompat[0xa3b1eb80]: 2
+02-12 15:43:56.610 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.AppCompat[0xa3b1eb80] -> Xamarin.Android.Support.Fragment[0xa3b1ea00]: 2
+02-12 15:43:56.610 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Fragment[0xa3b1ea00] -> Xamarin.Android.Support.Compat[0xa3b1e880]: 2
+02-12 15:43:56.610 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.AppCompat[0xa3b1eb80] -> Xamarin.Android.Support.Core.Utils[0xa3b1e940]: 2
+02-12 15:43:56.611 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.AppCompat[0xa3b1eb80] -> Xamarin.Android.Support.Core.UI[0xa3b1e8e0]: 2
+02-12 15:43:56.700 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> Mono.Android[0xa3b1e5e0]: 20
+02-12 15:43:56.700 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> mscorlib[0xa3b1e460]: 30
+02-12 15:43:56.746 D/Mono    ( 4064): Assembly Ref addref XamarinForms_ListviewSelection.Droid[0xa3b1e4c0] -> Xamarin.Forms.Platform.Android[0xa3b1ee20]: 2
+02-12 15:43:56.746 D/Mono    ( 4064): Assembly Ref addref XamarinForms_ListviewSelection.Droid[0xa3b1e4c0] -> Mono.Android[0xa3b1e5e0]: 21
+02-12 15:43:56.756 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> Xamarin.Forms.Core[0xa3b1edc0]: 2
+02-12 15:43:56.756 D/Mono    ( 4064): Unloading image System.Runtime.dll [0x9190d300].
+02-12 15:43:56.756 D/Mono    ( 4064): Image addref System.Runtime[0xa31761a0] -> System.Runtime.dll[0xa3170a00]: 5
+02-12 15:43:56.756 D/Mono    ( 4064): Config attempting to parse: 'System.Runtime.dll.config'.
+02-12 15:43:56.756 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime/System.Runtime.config'.
+02-12 15:43:56.756 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Runtime[0xa3b1e580]: 3
+02-12 15:43:56.757 D/Mono    ( 4064): Image addref System.ObjectModel[0xa31761a0] -> System.ObjectModel.dll[0x9190d300]: 2
+02-12 15:43:56.757 D/Mono    ( 4064): Prepared to set up assembly 'System.ObjectModel' (System.ObjectModel.dll)
+02-12 15:43:56.757 D/Mono    ( 4064): Assembly System.ObjectModel[0xa31761a0] added to domain RootDomain, ref_count=1
+02-12 15:43:56.758 D/Mono    ( 4064): AOT: image 'System.ObjectModel.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.ObjectModel.dll.so" not found
+02-12 15:43:56.758 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.ObjectModel.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.ObjectModel.dll.so" not found
+02-12 15:43:56.758 D/Mono    ( 4064): Config attempting to parse: 'System.ObjectModel.dll.config'.
+02-12 15:43:56.759 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.ObjectModel/System.ObjectModel.config'.
+02-12 15:43:56.759 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.ObjectModel[0xa31761a0]: 2
+02-12 15:43:56.759 D/Mono    ( 4064): Image addref System[0xa31768c0] -> System.dll[0x9190d800]: 2
+02-12 15:43:56.759 D/Mono    ( 4064): Prepared to set up assembly 'System' (System.dll)
+02-12 15:43:56.759 D/Mono    ( 4064): Assembly System[0xa31768c0] added to domain RootDomain, ref_count=1
+02-12 15:43:56.760 D/Mono    ( 4064): AOT: image 'System.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.dll.so" not found
+02-12 15:43:56.761 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.dll.so" not found
+02-12 15:43:56.761 D/Mono    ( 4064): Config attempting to parse: 'System.dll.config'.
+02-12 15:43:56.761 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System/System.config'.
+02-12 15:43:56.761 D/Mono    ( 4064): Assembly Ref addref System.ObjectModel[0xa31761a0] -> System[0xa31768c0]: 2
+Loaded assembly: System.ObjectModel.dll [External]
+Loaded assembly: System.dll [External]
+02-12 15:43:56.807 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:56.807 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_array_length'.
+02-12 15:43:56.807 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_array_length'.
+02-12 15:43:56.807 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_array_length'.
+Loaded assembly: MonoDroidConstructors [External]
+02-12 15:43:56.981 D/Mono    ( 4064): Assembly Ref addref XamarinForms_ListviewSelection.Droid[0xa3b1e4c0] -> mscorlib[0xa3b1e460]: 31
+02-12 15:43:56.995 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> System.Core[0xa3175840]: 4
+02-12 15:43:57.002 D/Mono    ( 4064): Unloading image System.Collections.dll [0x9190e700].
+02-12 15:43:57.002 D/Mono    ( 4064): Image addref System.Collections[0xa3176080] -> System.Collections.dll[0xa3173200]: 5
+02-12 15:43:57.002 D/Mono    ( 4064): Config attempting to parse: 'System.Collections.dll.config'.
+02-12 15:43:57.002 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Collections/System.Collections.config'.
+02-12 15:43:57.002 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Collections[0xa31750c0]: 3
+02-12 15:43:57.003 D/Mono    ( 4064): Unloading image System.Reflection.dll [0x9190e700].
+02-12 15:43:57.003 D/Mono    ( 4064): Image addref System.Reflection[0xa3176080] -> System.Reflection.dll[0xa3173700]: 5
+02-12 15:43:57.003 D/Mono    ( 4064): Config attempting to parse: 'System.Reflection.dll.config'.
+02-12 15:43:57.003 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Reflection/System.Reflection.config'.
+02-12 15:43:57.003 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Reflection[0xa3175240]: 3
+02-12 15:43:57.012 D/Mono    ( 4064): Assembly Ref addref System[0xa31768c0] -> mscorlib[0xa3b1e460]: 32
+02-12 15:43:57.013 D/Mono    ( 4064): Image addref System.Xml.ReaderWriter[0xa3176e00] -> System.Xml.ReaderWriter.dll[0x9190e700]: 2
+02-12 15:43:57.013 D/Mono    ( 4064): Prepared to set up assembly 'System.Xml.ReaderWriter' (System.Xml.ReaderWriter.dll)
+02-12 15:43:57.013 D/Mono    ( 4064): Assembly System.Xml.ReaderWriter[0xa3176e00] added to domain RootDomain, ref_count=1
+02-12 15:43:57.015 D/Mono    ( 4064): AOT: image 'System.Xml.ReaderWriter.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Xml.ReaderWriter.dll.so" not found
+02-12 15:43:57.015 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Xml.ReaderWriter.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Xml.ReaderWriter.dll.so" not found
+02-12 15:43:57.015 D/Mono    ( 4064): Config attempting to parse: 'System.Xml.ReaderWriter.dll.config'.
+02-12 15:43:57.015 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Xml.ReaderWriter/System.Xml.ReaderWriter.config'.
+02-12 15:43:57.015 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Xml.ReaderWriter[0xa3176e00]: 2
+02-12 15:43:57.016 D/Mono    ( 4064): Image addref System.Xml[0xa3176da0] -> System.Xml.dll[0x9190e200]: 2
+02-12 15:43:57.016 D/Mono    ( 4064): Prepared to set up assembly 'System.Xml' (System.Xml.dll)
+02-12 15:43:57.016 D/Mono    ( 4064): Assembly System.Xml[0xa3176da0] added to domain RootDomain, ref_count=1
+02-12 15:43:57.017 D/Mono    ( 4064): AOT: image 'System.Xml.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Xml.dll.so" not found
+02-12 15:43:57.017 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Xml.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Xml.dll.so" not found
+02-12 15:43:57.017 D/Mono    ( 4064): Config attempting to parse: 'System.Xml.dll.config'.
+02-12 15:43:57.017 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Xml/System.Xml.config'.
+02-12 15:43:57.017 D/Mono    ( 4064): Assembly Ref addref System.Xml.ReaderWriter[0xa3176e00] -> System.Xml[0xa3176da0]: 2
+02-12 15:43:57.018 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Reflection.Extensions[0xa3175a20]: 3
+Loaded assembly: System.Xml.ReaderWriter.dll [External]
+Loaded assembly: System.Xml.dll [External]
+02-12 15:43:57.084 D/Mono    ( 4064): Assembly Ref addref XamarinForms_ListviewSelection.Droid[0xa3b1e4c0] -> XamarinForms_ListviewSelection[0xa3b1ef40]: 2
+02-12 15:43:57.084 D/Mono    ( 4064): Assembly Ref addref XamarinForms_ListviewSelection[0xa3b1ef40] -> Xamarin.Forms.Core[0xa3b1edc0]: 3
+02-12 15:43:57.084 D/Mono    ( 4064): Image addref System.Threading.Tasks[0xa3176ec0] -> System.Threading.Tasks.dll[0x9190f600]: 2
+02-12 15:43:57.084 D/Mono    ( 4064): Prepared to set up assembly 'System.Threading.Tasks' (System.Threading.Tasks.dll)
+02-12 15:43:57.084 D/Mono    ( 4064): Assembly System.Threading.Tasks[0xa3176ec0] added to domain RootDomain, ref_count=1
+02-12 15:43:57.085 D/Mono    ( 4064): AOT: image 'System.Threading.Tasks.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Threading.Tasks.dll.so" not found
+02-12 15:43:57.086 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Threading.Tasks.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Threading.Tasks.dll.so" not found
+02-12 15:43:57.086 D/Mono    ( 4064): Config attempting to parse: 'System.Threading.Tasks.dll.config'.
+02-12 15:43:57.086 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Threading.Tasks/System.Threading.Tasks.config'.
+02-12 15:43:57.086 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Threading.Tasks[0xa3176ec0]: 2
+02-12 15:43:57.086 D/Mono    ( 4064): Assembly Ref addref System.Threading.Tasks[0xa3176ec0] -> mscorlib[0xa3b1e460]: 33Loaded assembly: System.Threading.Tasks.dll [External]
+
+02-12 15:43:57.087 D/Mono    ( 4064): Unloading image System.Threading.dll [0x9190fb00].
+02-12 15:43:57.087 D/Mono    ( 4064): Image addref System.Threading[0xa3176080] -> System.Threading.dll[0xa3171e00]: 5
+02-12 15:43:57.087 D/Mono    ( 4064): Config attempting to parse: 'System.Threading.dll.config'.
+02-12 15:43:57.087 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Threading/System.Threading.config'.
+02-12 15:43:57.087 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Threading[0xa3175120]: 3
+02-12 15:43:57.087 D/Mono    ( 4064): Assembly Ref addref System.Runtime[0xa3b1e580] -> System[0xa31768c0]: 3
+02-12 15:43:57.087 D/Mono    ( 4064): Assembly Ref addref XamarinForms_ListviewSelection.Droid[0xa3b1e4c0] -> Xamarin.Forms.Core[0xa3b1edc0]: 4
+02-12 15:43:57.121 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> Xamarin.Android.Support.Fragment[0xa3b1ea00]: 3
+02-12 15:43:57.131 W/art     ( 4064): Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+02-12 15:43:57.146 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.146 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_nonvirtual_object_method_a'.
+02-12 15:43:57.146 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_nonvirtual_object_method_a'.
+02-12 15:43:57.147 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_nonvirtual_object_method_a'.
+02-12 15:43:57.263 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.263 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_static_int_field'.
+02-12 15:43:57.263 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_static_int_field'.
+02-12 15:43:57.263 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_static_int_field'.
+02-12 15:43:57.274 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.274 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_void_method_a'.
+02-12 15:43:57.274 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_void_method_a'.
+02-12 15:43:57.274 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_void_method_a'.
+02-12 15:43:57.283 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> System[0xa31768c0]: 4
+02-12 15:43:57.284 D/Mono    ( 4064): Image addref System.IO[0xa31775e0] -> System.IO.dll[0x9176ef00]: 2
+02-12 15:43:57.284 D/Mono    ( 4064): Prepared to set up assembly 'System.IO' (System.IO.dll)
+02-12 15:43:57.284 D/Mono    ( 4064): Assembly System.IO[0xa31775e0] added to domain RootDomain, ref_count=1
+02-12 15:43:57.285 D/Mono    ( 4064): AOT: image 'System.IO.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.IO.dll.so" not found
+02-12 15:43:57.286 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.IO.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.IO.dll.so" not found
+02-12 15:43:57.286 D/Mono    ( 4064): Config attempting to parse: 'System.IO.dll.config'.
+02-12 15:43:57.286 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.IO/System.IO.config'.
+02-12 15:43:57.286 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.IO[0xa31775e0]: 2
+02-12 15:43:57.286 D/Mono    ( 4064): Assembly Ref addref System.IO[0xa31775e0] -> mscorlib[0xa3b1e460]: 34
+02-12 15:43:57.287 D/Mono    ( 4064): Unloading image System.Runtime.Extensions.dll [0x9176f900].
+02-12 15:43:57.287 D/Mono    ( 4064): Image addref System.Runtime.Extensions[0xa31777c0] -> System.Runtime.Extensions.dll[0xa3172d00]: 5
+02-12 15:43:57.287 D/Mono    ( 4064): Config attempting to parse: 'System.Runtime.Extensions.dll.config'.
+02-12 15:43:57.287 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime.Extensions/System.Runtime.Extensions.config'.
+02-12 15:43:57.287 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Runtime.Extensions[0xa31758a0]: 3
+02-12 15:43:57.287 D/Mono    ( 4064): Assembly Ref addref System.Runtime.Extensions[0xa31758a0] -> System[0xa31768c0]: 5
+02-12 15:43:57.288 D/Mono    ( 4064): Image addref System.Linq.Expressions[0xa31777c0] -> System.Linq.Expressions.dll[0x9176f900]: 2
+02-12 15:43:57.288 D/Mono    ( 4064): Prepared to set up assembly 'System.Linq.Expressions' (System.Linq.Expressions.dll)
+02-12 15:43:57.288 D/Mono    ( 4064): Assembly System.Linq.Expressions[0xa31777c0] added to domain RootDomain, ref_count=1
+02-12 15:43:57.290 D/Mono    ( 4064): AOT: image 'System.Linq.Expressions.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Linq.Expressions.dll.so" not found
+02-12 15:43:57.290 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Linq.Expressions.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Linq.Expressions.dll.so" not found
+02-12 15:43:57.290 D/Mono    ( 4064): Config attempting to parse: 'System.Linq.Expressions.dll.config'.
+02-12 15:43:57.290 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Linq.Expressions/System.Linq.Expressions.config'.
+02-12 15:43:57.290 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Linq.Expressions[0xa31777c0]: 2
+02-12 15:43:57.290 D/Mono    ( 4064): Assembly Ref addref System.Linq.Expressions[0xa31777c0] -> System.Core[0xa3175840]: 5
+Loaded assembly: System.IO.dll [External]
+Loaded assembly: System.Linq.Expressions.dll [External]
+02-12 15:43:57.339 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.339 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_boolean_method_a'.
+02-12 15:43:57.339 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_boolean_method_a'.
+02-12 15:43:57.339 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_boolean_method_a'.
+02-12 15:43:57.345 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.345 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_field_id'.
+02-12 15:43:57.345 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_field_id'.
+02-12 15:43:57.346 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_field_id'.
+02-12 15:43:57.348 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.348 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_int_field'.
+02-12 15:43:57.348 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_int_field'.
+02-12 15:43:57.348 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_int_field'.
+02-12 15:43:57.401 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.401 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_float_field'.
+02-12 15:43:57.401 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_float_field'.
+02-12 15:43:57.401 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_float_field'.
+02-12 15:43:57.437 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.437 D/Mono    ( 4064): Searching for 'java_interop_jnienv_new_int_array'.
+02-12 15:43:57.437 D/Mono    ( 4064): Probing 'java_interop_jnienv_new_int_array'.
+02-12 15:43:57.437 D/Mono    ( 4064): Found as 'java_interop_jnienv_new_int_array'.
+02-12 15:43:57.440 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.440 D/Mono    ( 4064): Searching for 'java_interop_jnienv_set_int_array_region'.
+02-12 15:43:57.440 D/Mono    ( 4064): Probing 'java_interop_jnienv_set_int_array_region'.
+02-12 15:43:57.440 D/Mono    ( 4064): Found as 'java_interop_jnienv_set_int_array_region'.
+02-12 15:43:57.443 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.443 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_int_array_region'.
+02-12 15:43:57.443 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_int_array_region'.
+02-12 15:43:57.443 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_int_array_region'.
+02-12 15:43:57.489 D/Mono    ( 4064): Unloading image System.Linq.dll [0x9176fe00].
+02-12 15:43:57.490 D/Mono    ( 4064): Image addref System.Linq[0xa3177b20] -> System.Linq.dll[0xa3173c00]: 5
+02-12 15:43:57.490 D/Mono    ( 4064): Config attempting to parse: 'System.Linq.dll.config'.
+02-12 15:43:57.490 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Linq/System.Linq.config'.
+02-12 15:43:57.490 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Linq[0xa3175720]: 3
+02-12 15:43:57.507 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> FormsViewGroup[0xa3b1e520]: 2
+02-12 15:43:57.535 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform[0xa3b1ee80] -> mscorlib[0xa3b1e460]: 35
+02-12 15:43:57.538 D/Mono    ( 4064): Unloading image System.Runtime.dll [0x9176fe00].
+02-12 15:43:57.538 D/Mono    ( 4064): Image addref System.Runtime[0xa3177b80] -> System.Runtime.dll[0xa3170a00]: 6
+02-12 15:43:57.538 D/Mono    ( 4064): Config attempting to parse: 'System.Runtime.dll.config'.
+02-12 15:43:57.538 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime/System.Runtime.config'.
+02-12 15:43:57.538 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Xaml[0xa3b1eee0] -> System.Runtime[0xa3b1e580]: 4
+02-12 15:43:57.538 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Xaml[0xa3b1eee0] -> Xamarin.Forms.Core[0xa3b1edc0]: 5
+02-12 15:43:57.540 D/Mono    ( 4064): Unloading image System.Runtime.dll [0x9176fe00].
+02-12 15:43:57.540 D/Mono    ( 4064): Image addref System.Runtime[0xa3177b80] -> System.Runtime.dll[0xa3170a00]: 7
+02-12 15:43:57.540 D/Mono    ( 4064): Config attempting to parse: 'System.Runtime.dll.config'.
+02-12 15:43:57.540 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime/System.Runtime.config'.
+02-12 15:43:57.541 D/Mono    ( 4064): Assembly Ref addref XamarinForms_ListviewSelection[0xa3b1ef40] -> System.Runtime[0xa3b1e580]: 5
+02-12 15:43:57.543 D/Mono    ( 4064): Assembly Ref addref System.Linq[0xa3175720] -> mscorlib[0xa3b1e460]: 36
+02-12 15:43:57.545 D/Mono    ( 4064): Unloading image System.Runtime.dll [0x9176fe00].
+02-12 15:43:57.546 D/Mono    ( 4064): Image addref System.Runtime[0xa3177b80] -> System.Runtime.dll[0xa3170a00]: 8
+02-12 15:43:57.546 D/Mono    ( 4064): Config attempting to parse: 'System.Runtime.dll.config'.
+02-12 15:43:57.546 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime/System.Runtime.config'.
+02-12 15:43:57.546 D/Mono    ( 4064): Assembly Ref addref Xamarin.Interactive[0xa3175960] -> System.Runtime[0xa3b1e580]: 6
+02-12 15:43:57.546 D/Mono    ( 4064): Assembly Ref addref System.ObjectModel[0xa31761a0] -> mscorlib[0xa3b1e460]: 37
+02-12 15:43:57.549 D/Mono    ( 4064): Assembly Ref addref System.Xml.ReaderWriter[0xa3176e00] -> mscorlib[0xa3b1e460]: 38
+02-12 15:43:57.549 D/Mono    ( 4064): Assembly Ref addref System.Xml[0xa3176da0] -> mscorlib[0xa3b1e460]: 39
+02-12 15:43:57.550 D/Mono    ( 4064): Assembly Ref addref System.Linq.Expressions[0xa31777c0] -> mscorlib[0xa3b1e460]: 40
+02-12 15:43:57.570 D/Mono    ( 4064): Unloading image System.Collections.dll [0x9176fe00].
+02-12 15:43:57.570 D/Mono    ( 4064): Image addref System.Collections[0xa3177b20] -> System.Collections.dll[0xa3173200]: 6
+02-12 15:43:57.570 D/Mono    ( 4064): Config attempting to parse: 'System.Collections.dll.config'.
+02-12 15:43:57.570 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Collections/System.Collections.config'.
+02-12 15:43:57.570 D/Mono    ( 4064): Assembly Ref addref XamarinForms_ListviewSelection[0xa3b1ef40] -> System.Collections[0xa31750c0]: 4
+02-12 15:43:57.573 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> Xamarin.Forms.Platform[0xa3b1ee80]: 2
+Thread started: <Thread Pool> #4
+Thread started: <Thread Pool> #5
+Thread started: <Thread Pool> #6
+Thread started: <Thread Pool> #7
+02-12 15:43:57.622 D/Mono    ( 4064): Image addref System.Globalization[0xa3177ca0] -> System.Globalization.dll[0x91770300]: 2
+02-12 15:43:57.622 D/Mono    ( 4064): Prepared to set up assembly 'System.Globalization' (System.Globalization.dll)
+02-12 15:43:57.622 D/Mono    ( 4064): Assembly System.Globalization[0xa3177ca0] added to domain RootDomain, ref_count=1
+02-12 15:43:57.623 D/Mono    ( 4064): AOT: image 'System.Globalization.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Globalization.dll.so" not found
+02-12 15:43:57.623 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Globalization.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Globalization.dll.so" not found
+02-12 15:43:57.623 D/Mono    ( 4064): Config attempting to parse: 'System.Globalization.dll.config'.
+02-12 15:43:57.624 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Globalization/System.Globalization.config'.
+02-12 15:43:57.624 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Globalization[0xa3177ca0]: 2
+02-12 15:43:57.624 D/Mono    ( 4064): Assembly Ref addref System.Globalization[0xa3177ca0] -> mscorlib[0xa3b1e460]: 41
+Loaded assembly: System.Globalization.dll [External]
+02-12 15:43:57.651 D/Mono    ( 4064): Assembly Ref addref System.Collections[0xa31750c0] -> System[0xa31768c0]: 6
+02-12 15:43:57.681 D/Mono    ( 4064): Image addref System.Dynamic.Runtime[0xa3119300] -> System.Dynamic.Runtime.dll[0x912dc500]: 2
+02-12 15:43:57.681 D/Mono    ( 4064): Prepared to set up assembly 'System.Dynamic.Runtime' (System.Dynamic.Runtime.dll)
+02-12 15:43:57.681 D/Mono    ( 4064): Assembly System.Dynamic.Runtime[0xa3119300] added to domain RootDomain, ref_count=1
+02-12 15:43:57.694 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.694 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_nonvirtual_boolean_method_a'.
+02-12 15:43:57.694 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_nonvirtual_boolean_method_a'.
+02-12 15:43:57.696 D/Mono    ( 4064): AOT: image 'System.Dynamic.Runtime.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Dynamic.Runtime.dll.so" not found
+02-12 15:43:57.696 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_nonvirtual_boolean_method_a'.
+Loaded assembly: System.Dynamic.Runtime.dll [External]02-12 15:43:57.703 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Dynamic.Runtime.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Dynamic.Runtime.dll.so" not found
+
+02-12 15:43:57.703 D/Mono    ( 4064): Config attempting to parse: 'System.Dynamic.Runtime.dll.config'.
+02-12 15:43:57.703 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Dynamic.Runtime/System.Dynamic.Runtime.config'.
+02-12 15:43:57.703 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Dynamic.Runtime[0xa3119300]: 2
+02-12 15:43:57.703 D/Mono    ( 4064): Assembly Ref addref System.Dynamic.Runtime[0xa3119300] -> mscorlib[0xa3b1e460]: 42
+02-12 15:43:57.748 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:57.748 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_int_method_a'.
+02-12 15:43:57.748 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_int_method_a'.
+02-12 15:43:57.748 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_int_method_a'.
+02-12 15:43:57.837 D/Mono    ( 4064): Assembly Ref addref XamarinForms_ListviewSelection[0xa3b1ef40] -> Xamarin.Forms.Xaml[0xa3b1eee0]: 2
+02-12 15:43:57.840 D/Mono    ( 4064): Unloading image System.Collections.dll [0x912dca00].
+02-12 15:43:57.840 D/Mono    ( 4064): Image addref System.Collections[0xa3119540] -> System.Collections.dll[0xa3173200]: 7
+02-12 15:43:57.840 D/Mono    ( 4064): Config attempting to parse: 'System.Collections.dll.config'.
+02-12 15:43:57.840 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Collections/System.Collections.config'.
+02-12 15:43:57.840 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Xaml[0xa3b1eee0] -> System.Collections[0xa31750c0]: 5
+02-12 15:43:57.843 D/Mono    ( 4064): Unloading image System.Xml.ReaderWriter.dll [0x912dcf00].
+02-12 15:43:57.843 D/Mono    ( 4064): Image addref System.Xml.ReaderWriter[0xa3119540] -> System.Xml.ReaderWriter.dll[0x9190e700]: 5
+02-12 15:43:57.843 D/Mono    ( 4064): Config attempting to parse: 'System.Xml.ReaderWriter.dll.config'.
+02-12 15:43:57.843 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Xml.ReaderWriter/System.Xml.ReaderWriter.config'.
+02-12 15:43:57.843 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Xaml[0xa3b1eee0] -> System.Xml.ReaderWriter[0xa3176e00]: 3
+02-12 15:43:57.846 D/Mono    ( 4064): Unloading image System.Reflection.dll [0x912dcf00].
+02-12 15:43:57.847 D/Mono    ( 4064): Image addref System.Reflection[0xa3119540] -> System.Reflection.dll[0xa3173700]: 6
+02-12 15:43:57.847 D/Mono    ( 4064): Config attempting to parse: 'System.Reflection.dll.config'.
+02-12 15:43:57.847 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Reflection/System.Reflection.config'.
+02-12 15:43:57.847 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Xaml[0xa3b1eee0] -> System.Reflection[0xa3175240]: 4
+02-12 15:43:57.859 D/Mono    ( 4064): Unloading image System.IO.dll [0x912dcf00].
+02-12 15:43:57.859 D/Mono    ( 4064): Image addref System.IO[0xa3119420] -> System.IO.dll[0x9176ef00]: 5
+02-12 15:43:57.859 D/Mono    ( 4064): Config attempting to parse: 'System.IO.dll.config'.
+02-12 15:43:57.859 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.IO/System.IO.config'.
+02-12 15:43:57.859 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Xaml[0xa3b1eee0] -> System.IO[0xa31775e0]: 3
+02-12 15:43:57.860 D/Mono    ( 4064): Image addref System.Text.RegularExpressions[0xa31192a0] -> System.Text.RegularExpressions.dll[0x912dcf00]: 2
+02-12 15:43:57.860 D/Mono    ( 4064): Prepared to set up assembly 'System.Text.RegularExpressions' (System.Text.RegularExpressions.dll)
+02-12 15:43:57.860 D/Mono    ( 4064): Assembly System.Text.RegularExpressions[0xa31192a0] added to domain RootDomain, ref_count=1
+02-12 15:43:57.861 D/Mono    ( 4064): AOT: image 'System.Text.RegularExpressions.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Text.RegularExpressions.dll.so" not found
+02-12 15:43:57.862 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Text.RegularExpressions.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Text.RegularExpressions.dll.so" not found
+02-12 15:43:57.862 D/Mono    ( 4064): Config attempting to parse: 'System.Text.RegularExpressions.dll.config'.
+Loaded assembly: System.Text.RegularExpressions.dll [External]02-12 15:43:57.862 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Text.RegularExpressions/System.Text.RegularExpressions.config'.
+
+02-12 15:43:57.862 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Xaml[0xa3b1eee0] -> System.Text.RegularExpressions[0xa31192a0]: 2
+02-12 15:43:57.862 D/Mono    ( 4064): Assembly Ref addref System.Text.RegularExpressions[0xa31192a0] -> System[0xa31768c0]: 7
+02-12 15:43:58.175 D/Mono    ( 4064): Assembly Ref addref System.Xml[0xa3176da0] -> System[0xa31768c0]: 8
+02-12 15:43:58.475 D/Mono    ( 4064): Unloading image System.Linq.dll [0x912dde00].
+02-12 15:43:58.475 D/Mono    ( 4064): Image addref System.Linq[0xa3119ba0] -> System.Linq.dll[0xa3173c00]: 6
+02-12 15:43:58.475 D/Mono    ( 4064): Config attempting to parse: 'System.Linq.dll.config'.
+02-12 15:43:58.475 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Linq/System.Linq.config'.
+02-12 15:43:58.475 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Xaml[0xa3b1eee0] -> System.Linq[0xa3175720]: 4
+02-12 15:43:58.565 D/Mono    ( 4064): Image addref System.ComponentModel[0xa3119ba0] -> System.ComponentModel.dll[0x912de800]: 2
+02-12 15:43:58.565 D/Mono    ( 4064): Prepared to set up assembly 'System.ComponentModel' (System.ComponentModel.dll)
+02-12 15:43:58.565 D/Mono    ( 4064): Assembly System.ComponentModel[0xa3119ba0] added to domain RootDomain, ref_count=1
+02-12 15:43:58.567 D/Mono    ( 4064): AOT: image 'System.ComponentModel.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.ComponentModel.dll.so" not found
+02-12 15:43:58.567 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.ComponentModel.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.ComponentModel.dll.so" not found
+02-12 15:43:58.567 D/Mono    ( 4064): Config attempting to parse: 'System.ComponentModel.dll.config'.
+02-12 15:43:58.567 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.ComponentModel/System.ComponentModel.config'.
+02-12 15:43:58.567 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Xaml[0xa3b1eee0] -> System.ComponentModel[0xa3119ba0]: 2
+02-12 15:43:58.567 D/Mono    ( 4064): Assembly Ref addref System.ComponentModel[0xa3119ba0] -> mscorlib[0xa3b1e460]: 43
+Loaded assembly: System.ComponentModel.dll [External]
+02-12 15:43:58.580 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.ComponentModel[0xa3119ba0]: 3
+02-12 15:43:58.608 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Xaml[0xa3b1eee0] -> System.Reflection.Extensions[0xa3175a20]: 4
+02-12 15:43:58.747 D/Mono    ( 4064): Assembly Ref addref System.Collections[0xa31750c0] -> System.Core[0xa3175840]: 6
+02-12 15:43:58.747 D/Mono    ( 4064): Assembly Ref addref System.Core[0xa3175840] -> System[0xa31768c0]: 9
+02-12 15:43:58.885 D/Mono    ( 4064): Image addref System.Diagnostics.Debug[0xa3119cc0] -> System.Diagnostics.Debug.dll[0x912ded00]: 2
+02-12 15:43:58.885 D/Mono    ( 4064): Prepared to set up assembly 'System.Diagnostics.Debug' (System.Diagnostics.Debug.dll)
+02-12 15:43:58.885 D/Mono    ( 4064): Assembly System.Diagnostics.Debug[0xa3119cc0] added to domain RootDomain, ref_count=1
+02-12 15:43:58.887 D/Mono    ( 4064): AOT: image 'System.Diagnostics.Debug.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Diagnostics.Debug.dll.so" not found
+02-12 15:43:58.887 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Diagnostics.Debug.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Diagnostics.Debug.dll.so" not found
+02-12 15:43:58.887 D/Mono    ( 4064): Config attempting to parse: 'System.Diagnostics.Debug.dll.config'.
+02-12 15:43:58.887 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Diagnostics.Debug/System.Diagnostics.Debug.config'.
+02-12 15:43:58.888 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Core[0xa3b1edc0] -> System.Diagnostics.Debug[0xa3119cc0]: 2
+02-12 15:43:58.888 D/Mono    ( 4064): Assembly Ref addref System.Diagnostics.Debug[0xa3119cc0] -> mscorlib[0xa3b1e460]: 44
+Loaded assembly: System.Diagnostics.Debug.dll [External]
+02-12 15:43:59.194 D/Mono    ( 4064): Assembly Ref addref FormsViewGroup[0xa3b1e520] -> Java.Interop[0xa3175000]: 3
+02-12 15:43:59.196 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> Xamarin.Android.Support.Core.UI[0xa3b1e8e0]: 3
+02-12 15:43:59.197 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> Xamarin.Android.Support.Design[0xa3b1e9a0]: 2
+02-12 15:43:59.200 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.v7.AppCompat[0xa3b1eb80] -> Xamarin.Android.Support.Compat[0xa3b1e880]: 3
+02-12 15:43:59.205 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> Xamarin.Android.Support.v7.CardView[0xa3b1ebe0]: 2
+02-12 15:43:59.264 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform[0xa3b1ee80] -> Xamarin.Forms.Core[0xa3b1edc0]: 6
+02-12 15:43:59.386 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:59.386 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_static_int_method_a'.
+02-12 15:43:59.386 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_static_int_method_a'.
+02-12 15:43:59.386 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_static_int_method_a'.
+02-12 15:43:59.478 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:59.478 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_void_method'.
+02-12 15:43:59.478 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_void_method'.
+02-12 15:43:59.478 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_void_method'.
+02-12 15:43:59.578 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:59.578 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_nonvirtual_object_method'.
+02-12 15:43:59.578 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_nonvirtual_object_method'.
+02-12 15:43:59.578 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_nonvirtual_object_method'.
+02-12 15:43:59.597 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:59.597 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_nonvirtual_int_method_a'.
+02-12 15:43:59.597 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_nonvirtual_int_method_a'.
+02-12 15:43:59.597 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_nonvirtual_int_method_a'.
+02-12 15:43:59.605 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:59.605 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_int_method'.
+02-12 15:43:59.605 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_int_method'.
+02-12 15:43:59.605 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_int_method'.
+02-12 15:43:59.779 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:43:59.779 D/Mono    ( 4064): Searching for 'java_interop_jnienv_new_local_ref'.
+02-12 15:43:59.779 D/Mono    ( 4064): Probing 'java_interop_jnienv_new_local_ref'.
+02-12 15:43:59.779 D/Mono    ( 4064): Found as 'java_interop_jnienv_new_local_ref'.
+02-12 15:43:59.831 D/Mono    ( 4064): Assembly Ref addref Xamarin.Android.Support.Core.UI[0xa3b1e8e0] -> Xamarin.Android.Support.Compat[0xa3b1e880]: 4
+02-12 15:44:00.364 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:44:00.365 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_nonvirtual_boolean_method'.
+02-12 15:44:00.365 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_nonvirtual_boolean_method'.
+02-12 15:44:00.365 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_nonvirtual_boolean_method'.
+02-12 15:44:00.371 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:44:00.371 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_nonvirtual_void_method'.
+02-12 15:44:00.371 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_nonvirtual_void_method'.
+02-12 15:44:00.371 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_nonvirtual_void_method'.
+02-12 15:44:00.385 D/        ( 4064): HostConnection::get() New Host Connection established 0x9083bd00, tid 4064
+02-12 15:44:00.409 D/Mono    ( 4064): Assembly Ref addref Mono.Android[0xa3b1e5e0] -> System.Xml[0xa3176da0]: 3
+02-12 15:44:00.501 D/        ( 4064): HostConnection::get() New Host Connection established 0x908519c0, tid 4099
+02-12 15:44:00.502 I/OpenGLRenderer( 4064): Initialized EGL, version 1.4
+02-12 15:44:00.502 D/OpenGLRenderer( 4064): Swap behavior 1
+02-12 15:44:00.502 W/OpenGLRenderer( 4064): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-12 15:44:00.502 D/OpenGLRenderer( 4064): Swap behavior 0
+02-12 15:44:00.521 D/EGL_emulation( 4064): eglCreateContext: 0xa311bdc0: maj 2 min 0 rcv 2
+02-12 15:44:00.575 D/EGL_emulation( 4064): eglMakeCurrent: 0xa311bdc0: ver 2 0 (tinfo 0x9085f620)
+02-12 15:44:00.718 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:44:00.718 D/Mono    ( 4064): Searching for 'java_interop_jnienv_call_nonvirtual_float_method_a'.
+02-12 15:44:00.718 D/Mono    ( 4064): Probing 'java_interop_jnienv_call_nonvirtual_float_method_a'.
+02-12 15:44:00.718 D/Mono    ( 4064): Found as 'java_interop_jnienv_call_nonvirtual_float_method_a'.
+02-12 15:44:00.776 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> Xamarin.Android.Support.Compat[0xa3b1e880]: 5
+02-12 15:44:00.779 W/art     ( 4064): JNI RegisterNativeMethods: attempt to register 0 native methods for md5b60ffeb829f638581ab2bb9b1a7f4f3f.BaseCellView
+02-12 15:44:00.779 W/art     ( 4064): JNI RegisterNativeMethods: attempt to register 0 native methods for md5b60ffeb829f638581ab2bb9b1a7f4f3f.TextCellRenderer_TextCellView
+02-12 15:44:00.793 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:44:00.793 D/Mono    ( 4064): Searching for 'java_interop_jnienv_set_int_field'.
+02-12 15:44:00.793 D/Mono    ( 4064): Probing 'java_interop_jnienv_set_int_field'.
+02-12 15:44:00.793 D/Mono    ( 4064): Found as 'java_interop_jnienv_set_int_field'.
+02-12 15:44:00.811 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:44:00.811 D/Mono    ( 4064): Searching for 'java_interop_jnienv_set_float_field'.
+02-12 15:44:00.811 D/Mono    ( 4064): Probing 'java_interop_jnienv_set_float_field'.
+02-12 15:44:00.811 D/Mono    ( 4064): Found as 'java_interop_jnienv_set_float_field'.
+02-12 15:44:00.996 D/Mono    ( 4064): Image addref System.Net.Http[0xa313e320] -> System.Net.Http.dll[0x90867800]: 2
+02-12 15:44:00.996 D/Mono    ( 4064): Prepared to set up assembly 'System.Net.Http' (System.Net.Http.dll)
+02-12 15:44:00.996 D/Mono    ( 4064): Assembly System.Net.Http[0xa313e320] added to domain RootDomain, ref_count=1
+02-12 15:44:00.998 D/Mono    ( 4064): AOT: image 'System.Net.Http.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Net.Http.dll.so" not found
+02-12 15:44:00.998 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/System.Net.Http.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-System.Net.Http.dll.so" not found
+02-12 15:44:00.998 D/Mono    ( 4064): Config attempting to parse: 'System.Net.Http.dll.config'.
+02-12 15:44:00.998 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Net.Http/System.Net.Http.config'.
+02-12 15:44:00.998 D/Mono    ( 4064): Assembly Ref addref Xamarin.Forms.Platform.Android[0xa3b1ee20] -> System.Net.Http[0xa313e320]: 2
+02-12 15:44:00.998 D/Mono    ( 4064): Assembly Ref addref System.Net.Http[0xa313e320] -> mscorlib[0xa3b1e460]: 45
+Loaded assembly: System.Net.Http.dll [External]
+02-12 15:44:01.007 D/Mono    ( 4064): Assembly Ref addref System.Net.Http[0xa313e320] -> System[0xa31768c0]: 10
+02-12 15:44:01.075 D/Mono    ( 4064): Image addref Mono.Security[0xa313e440] -> Mono.Security.dll[0x90868200]: 2
+02-12 15:44:01.075 D/Mono    ( 4064): Prepared to set up assembly 'Mono.Security' (Mono.Security.dll)
+02-12 15:44:01.075 D/Mono    ( 4064): Assembly Mono.Security[0xa313e440] added to domain RootDomain, ref_count=1
+02-12 15:44:01.076 D/Mono    ( 4064): AOT: image 'Mono.Security.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Mono.Security.dll.so" not found
+02-12 15:44:01.077 D/Mono    ( 4064): AOT: image '/usr/local/lib/mono/aot-cache/x86/Mono.Security.dll.so' not found: dlopen failed: library "/data/app/com.xamarin.xamarinforms_listviewselection-1/lib/x86/libaot-Mono.Security.dll.so" not found
+02-12 15:44:01.077 D/Mono    ( 4064): Config attempting to parse: 'Mono.Security.dll.config'.
+02-12 15:44:01.077 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/Mono.Security/Mono.Security.config'.
+02-12 15:44:01.077 D/Mono    ( 4064): Assembly Ref addref System[0xa31768c0] -> Mono.Security[0xa313e440]: 2
+02-12 15:44:01.077 D/Mono    ( 4064): Assembly Ref addref Mono.Security[0xa313e440] -> mscorlib[0xa3b1e460]: 46
+Loaded assembly: Mono.Security.dll [External]
+02-12 15:44:01.093 D/Mono    ( 4064): Assembly Ref addref System.Net.Http[0xa313e320] -> System.Core[0xa3175840]: 7
+02-12 15:44:01.123 D/Mono    ( 4064): Assembly Ref addref Mono.Android[0xa3b1e5e0] -> System[0xa31768c0]: 11
+02-12 15:44:01.349 W/art     ( 4064): JNI RegisterNativeMethods: attempt to register 0 native methods for md5b60ffeb829f638581ab2bb9b1a7f4f3f.CellRenderer_RendererHolder
+Thread started: <Thread Pool> #8
+Thread started: <Thread Pool> #9
+02-12 15:44:01.600 I/Choreographer( 4064): Skipped 67 frames!  The application may be doing too much work on its main thread.
+02-12 15:44:01.603 D/EGL_emulation( 4064): eglMakeCurrent: 0xa311bdc0: ver 2 0 (tinfo 0x9085f620)
+[0:] Image Loading: Error getting stream for https://www.xamstatic.com/dist/images/pages/platform/visual-studio-icon-uHIZMvQl.png: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x00026] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Net.Http.HttpClientHandler+<SendAsync>d__63.MoveNext () [0x00528] in <35658e59c86d40bdbb2ef0bb34b4f0c7>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0001a] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Net.Http.HttpClient+<SendAsyncWorker>d__49.MoveNext () [0x000ca] in <35658e59c86d40bdbb2ef0bb34b4f0c7>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0001a] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at Xamarin.Forms.Forms+AndroidPlatformServices+<GetStreamAsync>d__16.MoveNext () [0x0003e] in D:\agent\_work\2\s\Xamarin.Forms.Platform.Android\Forms.cs:448 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0001a] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <657aa8fea4454dc898a9e5f379c58734>:0 
+  at Xamarin.Forms.UriImageSource+<GetStreamAsyncUnchecked>d__23.MoveNext () [0x00224] in D:\agent\_work\2\s\Xamarin.Forms.Core\UriImageSource.cs:174 
+[0:] ImageLoaderSourceHandler: Could not retrieve image or image data was invalid: Uri: https://www.xamstatic.com/dist/images/pages/platform/visual-studio-icon-uHIZMvQl.png
+02-12 15:44:02.023 D/Mono    ( 4064): DllImport attempting to load: '/system/lib/libc.so'.
+02-12 15:44:02.023 D/Mono    ( 4064): DllImport loaded library '/system/lib/libc.so'.
+02-12 15:44:02.023 D/Mono    ( 4064): DllImport searching in: '/system/lib/libc.so' ('/system/lib/libc.so').
+02-12 15:44:02.023 D/Mono    ( 4064): Searching for 'uname'.
+02-12 15:44:02.023 D/Mono    ( 4064): Probing 'uname'.
+02-12 15:44:02.023 D/Mono    ( 4064): Found as 'uname'.
+02-12 15:44:02.034 D/Mono    ( 4064): Assembly Ref addref Mono.Security[0xa313e440] -> System[0xa31768c0]: 12
+Thread started: <Thread Pool> #10
+02-12 15:44:02.611 D/Mono    ( 4064): Unloading image System.dll [0x8f8f9900].
+02-12 15:44:02.611 D/Mono    ( 4064): Image addref System[0xa3b06de0] -> System.dll[0x9190d800]: 5
+02-12 15:44:02.611 D/Mono    ( 4064): Config attempting to parse: 'System.dll.config'.
+02-12 15:44:02.612 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System/System.config'.
+02-12 15:44:02.625 D/Mono    ( 4064): Unloading image System.dll [0x8f8f9900].
+02-12 15:44:02.625 D/Mono    ( 4064): Image addref System[0xa3b06de0] -> System.dll[0x9190d800]: 6
+02-12 15:44:02.625 D/Mono    ( 4064): Config attempting to parse: 'System.dll.config'.
+02-12 15:44:02.625 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System/System.config'.
+02-12 15:44:02.631 D/Mono    ( 4064): Unloading image System.dll [0x8f8f9900].
+02-12 15:44:02.631 D/Mono    ( 4064): Image addref System[0xa3b06de0] -> System.dll[0x9190d800]: 7
+02-12 15:44:02.631 D/Mono    ( 4064): Config attempting to parse: 'System.dll.config'.
+02-12 15:44:02.631 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System/System.config'.
+02-12 15:44:02.637 D/Mono    ( 4064): Unloading image System.dll [0x8f8f9900].
+02-12 15:44:02.637 D/Mono    ( 4064): Image addref System[0xa3b06de0] -> System.dll[0x9190d800]: 8
+02-12 15:44:02.637 D/Mono    ( 4064): Config attempting to parse: 'System.dll.config'.
+02-12 15:44:02.637 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System/System.config'.
+02-12 15:44:02.682 D/NetworkSecurityConfig( 4064): No Network Security Config specified, using platform default
+02-12 15:44:02.692 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:44:02.692 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_object_array_element'.
+02-12 15:44:02.692 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_object_array_element'.
+02-12 15:44:02.692 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_object_array_element'.
+02-12 15:44:02.728 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:44:02.728 D/Mono    ( 4064): Searching for 'java_interop_jnienv_is_assignable_from'.
+02-12 15:44:02.728 D/Mono    ( 4064): Probing 'java_interop_jnienv_is_assignable_from'.
+02-12 15:44:02.728 D/Mono    ( 4064): Found as 'java_interop_jnienv_is_assignable_from'.
+02-12 15:44:02.732 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:44:02.732 D/Mono    ( 4064): Searching for 'java_interop_jnienv_get_byte_array_region'.
+02-12 15:44:02.732 D/Mono    ( 4064): Probing 'java_interop_jnienv_get_byte_array_region'.
+02-12 15:44:02.732 D/Mono    ( 4064): Found as 'java_interop_jnienv_get_byte_array_region'.
+02-12 15:44:02.737 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:44:02.737 D/Mono    ( 4064): Searching for 'java_interop_jnienv_set_byte_array_region'.
+02-12 15:44:02.737 D/Mono    ( 4064): Probing 'java_interop_jnienv_set_byte_array_region'.
+02-12 15:44:02.737 D/Mono    ( 4064): Found as 'java_interop_jnienv_set_byte_array_region'.
+02-12 15:44:02.756 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:44:02.756 D/Mono    ( 4064): Searching for 'java_interop_jnienv_new_object_array'.
+02-12 15:44:02.756 D/Mono    ( 4064): Probing 'java_interop_jnienv_new_object_array'.
+02-12 15:44:02.756 D/Mono    ( 4064): Found as 'java_interop_jnienv_new_object_array'.
+02-12 15:44:02.760 D/Mono    ( 4064): DllImport searching in: '__Internal' ('(null)').
+02-12 15:44:02.760 D/Mono    ( 4064): Searching for 'java_interop_jnienv_set_object_array_element'.
+02-12 15:44:02.760 D/Mono    ( 4064): Probing 'java_interop_jnienv_set_object_array_element'.
+02-12 15:44:02.760 D/Mono    ( 4064): Found as 'java_interop_jnienv_set_object_array_element'.
+02-12 15:44:02.956 W/Mono    ( 4064): The request to load the assembly System.Core v4.0.0.0 was remapped to v2.0.5.0
+02-12 15:44:02.958 D/Mono    ( 4064): Unloading image System.Core.dll [0x8f8f9400].
+02-12 15:44:02.958 D/Mono    ( 4064): Image addref System.Core[0xa3b07e00] -> System.Core.dll[0xa3172800]: 5
+02-12 15:44:02.958 D/Mono    ( 4064): Config attempting to parse: 'System.Core.dll.config'.
+02-12 15:44:02.958 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Core/System.Core.config'.
+02-12 15:44:02.995 W/Mono    ( 4064): The request to load the assembly System.Core v4.0.0.0 was remapped to v2.0.5.0
+02-12 15:44:02.997 D/Mono    ( 4064): Unloading image System.Core.dll [0x8f8f9400].
+02-12 15:44:02.997 D/Mono    ( 4064): Image addref System.Core[0xa3b07e00] -> System.Core.dll[0xa3172800]: 6
+02-12 15:44:02.997 D/Mono    ( 4064): Config attempting to parse: 'System.Core.dll.config'.
+02-12 15:44:02.997 D/Mono    ( 4064): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Core/System.Core.config'.
